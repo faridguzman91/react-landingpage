@@ -2,8 +2,15 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-router-dom'
 
+export const Fonts = styled.div`
+  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Montserrat:wght@300;400;500;600;700&display=swap');
+`
+
 export const Nav = styled.nav`
-background: #6F6282;
+font-family: 'Lato', sans-serif;
+background: #A2A2A2;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -29,7 +36,9 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-color: #000;
+font-family: 'Lato', sans-serif;
+font-weight: 100;
+color: #fff;
 justify-self: flex-start;
 cursos: pointer;
 font-size: 1.5 rem;
@@ -55,6 +64,7 @@ display: none;
 `
 
 export const NavMenu = styled.ul`
+font-family: 'Lato', sans-serif;
 display: flex;
 align-items: center;
 list-style: none;
@@ -71,6 +81,7 @@ height: 80px;
 `
 
 export const NavLinks = styled(LinkS)`
+
 color: #fff;
 display: flex;
 align-items: center;
@@ -82,4 +93,35 @@ cursor: pointer;
 &.active {
     border-bottom: 3px solid #9fb3c7;
 }
+`
+
+export const NavBtn = styled.nav`
+display: flex;
+align-items: center;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
+`
+
+export const NavBtnLink = styled(LinkR)`
+font-family: 'Lato', sans-serif;
+border-radius: 50px;
+background: #01bf71;
+white-space: nowrap;
+padding: 10px 22px;
+color: #010606;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+
+&:hover {
+    transition: all 0.2s all ease-in-out;
+    background: #fff;
+    color: #010606;
+}
+
 `
