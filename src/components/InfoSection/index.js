@@ -11,16 +11,16 @@ const InfoSection = () => {
                         <Column1>
                             <TextWrapper>
                                 <TopLine>
-                                    TopLine
+                                    Create SVG's for your configurators easily
                                 </TopLine>
                                 <Heading>
-                                    Heading
+                                    With the Map Tool
                                 </Heading>
                                 <Subtitle>
-                                    Subtitle
+                                    Quickly and easily draw available real estate using the drawing tool
                                 </Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'/>
+                                    <Button to='home' />
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
