@@ -2,9 +2,12 @@ import styled from 'styled-components'
 // import { homeObjOne } from './Data'
 
 
+//$ variables dependant on Data.js property values
+
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#1692df')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#d3d3d3')};
+font-family: 'Lato', sans-serif;
  
 @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -67,7 +70,7 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#676767')};
+color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#000000')};
 
 
 @media screen and (max-width: 480px) {
@@ -80,8 +83,9 @@ export const Subtitle = styled.div`
 max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
+font-family: 'Lato', sans-serif;
 line-height: 24px;
-color: ${({ darkText }) => (darkText ? '#010606' : '#898989')};
+color: ${({ darkText }) => (darkText ? '#ffffff' : '#000000')};
 `
 
 export const BtnWrap = styled.div`

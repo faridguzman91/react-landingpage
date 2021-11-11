@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
 
+//$ variables dependant on Data.js property values
+
 export const HeroContainer = styled.div`
 background: #6a6a77;
 display: flex;
@@ -18,8 +20,8 @@ z-index: 1;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #2581a233 0%, rgba(0,0,0,0.6) 100%),
-    linear-gradient(180deg, #3778c733 0%, transparent 100%);
+    background: linear-gradient(180deg, #3688df33 0%, #5db0f099 100%),
+    linear-gradient(180deg, #e5f1ffb0 0%, transparent 100%);
     z-index: 1;
 }
 `
@@ -92,14 +94,27 @@ margin-top: 32px;
 display: flex;
 flex-direction: column;
 align-items: center;
+font-family: 'Lato', sans-serif;
+
+%:hover {
+    transition: all 0.2s ease-in-out;
+}
 `
 
 export const ArrowForward = styled(MdArrowForward)`
 margin-left: 8px;
 font-size: 20px;
+
+%:hover {
+    transition: all 0.2s ease-in-out;
+}
 `
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
 margin-left: 8px;
 font-size: 20px;
+
+%:hover {
+    transition: all 0.2s ease-in-out;
+}
 `

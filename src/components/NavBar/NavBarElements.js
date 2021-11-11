@@ -8,13 +8,15 @@ export const Fonts = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Montserrat:wght@300;400;500;600;700&display=swap');
 `
 
+//$ variables dependant on Data.js property values
+
 export const Nav = styled.nav`
 font-family: 'Lato', sans-serif;
 background: #3392FF;
 height: 80px;
 display: flex;
 justify-content: center;
-align-item: center;
+align-items: center;
 font-size: 1rem;
 position: sticky;
 top: 0;
@@ -36,7 +38,7 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-font-family: 'Lato', sans-serif;
+font-family: 'Silka Italic', sans-serif;
 font-weight: 100;
 color: #fff;
 justify-self: flex-start;
@@ -59,7 +61,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #000;
+    color: #ffffff;
 }
 `
 
@@ -112,10 +114,10 @@ align-items: center;
 export const NavBtnLink = styled(LinkR)`
 font-family: 'Lato', sans-serif;
 border-radius: 50px;
-background: #01bf71;
+background: #a0d5e8;
 white-space: nowrap;
 padding: 10px 22px;
-color: #010606;
+color: #000000;
 font-size: 16px;
 outline: none;
 border: none;
@@ -126,7 +128,7 @@ text-decoration: none;
 &:hover {
     transition: all 0.2s all ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #000000;
 }
 
 `

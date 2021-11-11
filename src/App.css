@@ -2,10 +2,26 @@
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 
+  @font-face {
+    font-family: Silka;
+    src: url('../src/components/assets/fonts/silka-regular-webfont.woff');
+  }
+
+  @font-face {
+    font-family: Silka Italic;
+    src: url('../src/components/assets/fonts/silka-regularitalic-webfont.woff');
+  }
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding:0;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  /* font-family: 'Encode Sans Expanded', sans-serif; */
 
+}
+
+h1,h2,h3,p,a,button {
+  font-family: 'Silka', sans-serif;
+  font-weight: 300;
 }
