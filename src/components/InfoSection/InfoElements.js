@@ -102,6 +102,6 @@ export const Img = styled.div`
 width: 100%;
 margin: 0 0 10px 0;
 padding: 0;
-height: 250px;
-background-image: url('../images/react.svg');
+
+/* background-image: url('../images/react.svg'); */
 `

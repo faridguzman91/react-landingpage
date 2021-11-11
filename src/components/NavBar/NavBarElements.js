@@ -99,7 +99,7 @@ cursor: pointer;
         color: #000;
         transition: 0.2s ease-in-out;
     }
-}
+
 `
 
 export const NavBtn = styled.nav`
