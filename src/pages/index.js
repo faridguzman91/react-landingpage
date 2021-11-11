@@ -3,6 +3,7 @@ import Sidebar from '../components/SideBar'
 import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
+import { homeObjOne } from '../components/InfoSection/Data'
 
 //set sidebar navbar toggle states
 //default state toggle is 
@@ -19,7 +20,7 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <NavBar toggle={toggle} />
             <HeroSection />
-            <InfoSection/>
+            <InfoSection {...homeObjOne} />
         </>
     )
 }

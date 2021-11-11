@@ -10,7 +10,7 @@ export const Fonts = styled.div`
 
 export const Nav = styled.nav`
 font-family: 'Lato', sans-serif;
-background: #A2A2A2;
+background: #3392FF;
 height: 80px;
 display: flex;
 justify-content: center;

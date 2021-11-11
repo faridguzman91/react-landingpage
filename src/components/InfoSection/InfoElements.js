@@ -1,8 +1,10 @@
 import styled from 'styled-components'
+// import { homeObjOne } from './Data'
+
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#1692df')};
  
 @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -14,7 +16,7 @@ display: grid;
 z-index: 1;
 height: 860px;
 width: 100%;
-max-width: 100px;
+max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
@@ -51,7 +53,7 @@ padding-bottom: 60px;
 `
 
 export const TopLine = styled.p`
-color: #01bf71;
+color: #393939;
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
@@ -65,11 +67,11 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-/* color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')}; */
-color: #fff;
+color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#676767')};
+
 
 @media screen and (max-width: 480px) {
-
+    font-size: 32px;
 }
 
 `
@@ -79,7 +81,7 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+color: ${({ darkText }) => (darkText ? '#010606' : '#898989')};
 `
 
 export const BtnWrap = styled.div`
@@ -96,4 +98,6 @@ export const Img = styled.div`
 width: 100%;
 margin: 0 0 10px 0;
 padding: 0;
+height: 250px;
+background-image: url('../images/react.svg');
 `

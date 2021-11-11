@@ -1,32 +1,40 @@
 import React from 'react'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 import { Button } from '../ButtonElement'
+//n
 
-const InfoSection = () => {
+
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, lightTextDescription, darkText, headLine, description, buttonLabel, img, alt }) => {
     return (
         <>
-            <InfoContainer>
+            <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
-                    <InfoRow>
+                    <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
                                 <TopLine>
-                                    Create SVG's for your configurators easily
+                                    {/* Create SVGs for your configurators easily */}
+                                    {topLine}
                                 </TopLine>
-                                <Heading>
-                                    With the Map Tool
+                                <Heading lightText={lightText}>
+                                    {/* With the Map Tool */}
+                                    {headLine}
                                 </Heading>
-                                <Subtitle>
-                                    Quickly and easily draw available real estate using the drawing tool
+                                <Subtitle darkText={darkText} lightTextDescription={lightTextDescription}>
+                                    {/* Quickly and easily draw available lot using the drawing tool */}
+                                    {description}
                                 </Subtitle>
                                 <BtnWrap>
-                                    <Button to='home' />
+                                    <Button to='signup'>
+                                        {/* Try it for free */}
+                                        {buttonLabel}
+                                    </Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img />
+                                <Img src={img} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

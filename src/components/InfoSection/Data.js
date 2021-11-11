@@ -1,0 +1,16 @@
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDescription: true,
+    topLine: 'Create SVGs for your configurators easily',
+    headLine: 'With the Map Tool',
+    description: 'Quickly and easily draw available lot using the drawing tool',
+    buttonLabel: 'Try it for free',
+    imgStart: false,
+    img: require('../images/react.svg'),
+    alt: 'Drawing',
+    dark: true,
+    primary: true,
+    darkText: false,
+}
