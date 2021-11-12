@@ -1,5 +1,5 @@
-import reactImage from '../assets/images/react.svg'
-import reactImg2 from '../assets/images/draw_and_publish.png'
+// import reactImage from '../assets/images/react.svg'
+// import reactImg2 from '../assets/images/draw_and_publish.png'
 
 export const homeObjOne = {
     id: 'about',
