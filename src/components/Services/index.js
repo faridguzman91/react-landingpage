@@ -1,16 +1,25 @@
-import React from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Icon1 from '../images/react.svg'
 import Icon2 from '../images/upload_image.svg'
 import Icon3 from '../images/web_devices.svg'
 import { ServicesContainer, ServicesH1, ServicesH2, ServicesWrapper, ServicesCard, ServicesIcon, ServicesP } from './ServicesElements'
+import { gsap } from 'gsap'
 
 const Services = () => {
+
+    const boxRef = useRef();
+
+    useEffect(() => {
+        gsap.to(boxRef.current, { rotation: 720, x: 0 })
+    });
+
+
     return (
         <>
             <ServicesContainer>
                 <ServicesH1>Services</ServicesH1>
                 <ServicesWrapper>
-                    <ServicesCard>
+                    <ServicesCard ref={boxRef}>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Improve workflow</ServicesH2>
                         <ServicesP> A translation of our software towards a more robust and generic software could increase our production capacity. </ServicesP>

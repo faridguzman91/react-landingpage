@@ -7,7 +7,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDescription: true,
     topLine: 'Create SVGs for your configurators easily',
-    headLine: 'With the Map Tool',
+    headLine: 'with the Map Tool',
     description: 'Quickly and easily draw available lot using the drawing tool',
     buttonLabel: 'Try it for free >',
     imgStart: false,

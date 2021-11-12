@@ -1,4 +1,8 @@
 import styled from 'styled-components'
+import { useEffect, useState, useRef } from 'react'
+import { gsap } from 'gsap'
+
+
 
 export const ServicesContainer = styled.div`
 height: 800px;
@@ -40,7 +44,9 @@ padding: 0 50px;
 `
 
 export const ServicesCard = styled.div`
-background-color: #3392FF;
+/* position: relative; */
+/* z-index: 999; */
+background-color: #3392ff;
 display: flex;
 flex-direction: column;
 align-items: center;
