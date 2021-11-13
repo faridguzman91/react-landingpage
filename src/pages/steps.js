@@ -1,5 +1,0 @@
-import React, { useState } from 'react'
-import Sidebar from '../components/SideBar'
-import NavBar from '../components/NavBar'
-import Steps from '../components/Steps'
-import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
