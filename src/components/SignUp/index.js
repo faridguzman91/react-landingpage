@@ -16,8 +16,9 @@ const SignUp = () => {
                             <FormInput type="email" required />
                             <FormLabel htmlFor='for'>Password</FormLabel>
                             <FormInput type="password" required />
+                            <FormButton>Continue</FormButton>
                         </Form>
-                        <FormButton>Continue</FormButton>
+
                     </FormContent>
 
                 </Icon>
