@@ -95,7 +95,12 @@ background: #2e7dcb;
 padding: 16px 0;
 border: none;
 border-radius: 4px;
-color: #000000;
+color: #ffffff;
+
+&:hover {
+    background: #fff;
+    color: #000;
+}
 `
 
 export const Text = styled.div`
