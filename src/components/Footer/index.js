@@ -1,5 +1,6 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements'
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialIcons, SocialIconLink, SocialLogo, WebsiteRights } from './FooterElements'
 
 const FooterElements = () => {
     return (
@@ -9,38 +10,42 @@ const FooterElements = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/signup'>How it works</FooterLink>
-                            <FooterLink to='/signup'>Cases</FooterLink>
-                            <FooterLink to='/signup'>Sponsors</FooterLink>
-                            <FooterLink to='/signup'>Terms of Service</FooterLink>
+                            <FooterLink to='/'>How it works</FooterLink>
+                            <FooterLink to='/'>Cases</FooterLink>
+                            <FooterLink to='/'>Sponsors</FooterLink>
+                            <FooterLink to='/'>Terms of Service</FooterLink>
 
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/signup'>How it works</FooterLink>
-                            <FooterLink to='/signup'>Cases</FooterLink>
-                            <FooterLink to='/signup'>Sponsors</FooterLink>
-                            <FooterLink to='/signup'>Terms of Service</FooterLink>
-
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/signup'>How it works</FooterLink>
-                            <FooterLink to='/signup'>Cases</FooterLink>
-                            <FooterLink to='/signup'>Sponsors</FooterLink>
-                            <FooterLink to='/signup'>Terms of Service</FooterLink>
-
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/signup'>How it works</FooterLink>
-                            <FooterLink to='/signup'>Cases</FooterLink>
-                            <FooterLink to='/signup'>Sponsors</FooterLink>
-                            <FooterLink to='/signup'>Terms of Service</FooterLink>
-
+                            <FooterLink to='/'>How it works</FooterLink>
+                            <FooterLink to='/'>Cases</FooterLink>
+                            <FooterLink to='/'>Sponsors</FooterLink>
+                            <FooterLink to='/'>Terms of Service</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>
+                            MapTool
+                        </SocialLogo>
+                        <WebsiteRights>Kreate Space {new Date().getFullYear()} -
+                            All Rights Reserved
+                        </WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                                <FaTwitter />
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FooterContainer>
     )

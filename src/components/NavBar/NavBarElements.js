@@ -12,8 +12,9 @@ export const Fonts = styled.div`
 
 export const Nav = styled.nav`
 font-family: 'Lato', sans-serif;
-background: #3392FF;
+background: ${({ scrollNav }) => (scrollNav ? '#9acdfa' : 'transparent')};
 height: 80px;
+color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : 'transparent')};
 display: flex;
 justify-content: center;
 align-items: center;
@@ -40,9 +41,9 @@ max-width: 1100px;
 export const NavLogo = styled(LinkR)`
 font-family: 'Silka Italic', sans-serif;
 font-weight: 100;
-color: #fff;
+color: #000000;
 justify-self: flex-start;
-cursos: pointer;
+cursor: pointer;
 font-size: 1.5 rem;
 display: flex;
 align-items: center;
@@ -80,11 +81,12 @@ margin-right: -22px;
 
 export const NavItem = styled.li`
 height: 80px;
+color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : 'transparent')};
 `
 
 export const NavLinks = styled(LinkS)`
 
-color: #fff;
+color: #000000;
 display: flex;
 align-items: center;
 text-decoration: none;
