@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import { Link as LinkScroll } from 'react-scroll'
 
 export const FooterContainer = styled.div`
 background-color: #2498fe;
@@ -90,7 +91,7 @@ max-width: 40px auto 0 auto;
 
 `
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled(LinkScroll)`
 color: #fff;
 font-family: 'Silka', sans-serif;
 justify-self: start;

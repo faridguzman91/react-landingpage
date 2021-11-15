@@ -7,6 +7,8 @@ import { gsap } from 'gsap'
 
 const Services = () => {
 
+    //gsap animation function https://greensock.com/react/
+
     const boxRef = useRef();
 
     useEffect(() => {

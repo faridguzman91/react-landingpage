@@ -18,7 +18,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Map Tool</HeroH1>
-                <HeroP>Try our free account</HeroP>
+                <HeroP>Now draw interactive maps yourself</HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                         Get started {hover ? <ArrowForward /> : <ArrowRight />}

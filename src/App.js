@@ -12,7 +12,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/signup' component={SignUpPage} />
         </Switch>
-        <Home />
+        {/* <Home /> */}
         <SignUpPage />
 
 

@@ -8,6 +8,8 @@ import { animateScroll as scroll } from 'react-scroll'
 
 
 const NavBar = ({ toggle }) => {
+    //react scroll
+    //if browser window hits 80px Y axis, set true else false
 
     const [scrollNav, setScrollNav] = useState(false)
 
@@ -18,6 +20,8 @@ const NavBar = ({ toggle }) => {
             setScrollNav(false)
         }
     }
+
+    //cleanup effect, no dependancy
 
     useEffect(() => {
         window.addEventListener('scroll', changeNav)
@@ -38,19 +42,19 @@ const NavBar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about" smooth={true} duration={500} spy={true} exact={true} offset={-80}>Welcome</NavLinks>
+                            <NavLinks to="about" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Welcome</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="usage" smooth={true} duration={500} spy={true} exact={true} offset={-80}>Create</NavLinks>
+                            <NavLinks to="usage" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Create</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="publish" smooth={true} duration={500} spy={true} exact={true} offset={-80}>Publish</NavLinks>
+                            <NavLinks to="publish" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Publish</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="language" smooth={true} duration={500} spy={true} exact={true} offset={-80}>Language</NavLinks>
+                            <NavLinks to="language" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Language</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup" smooth={true} duration={500} spy={true} exact={true} offset={-80}>Sign Up</NavLinks>
+                            <NavLinks to="signup" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Sign Up</NavLinks>
                         </NavItem>
                     </NavMenu>
 
