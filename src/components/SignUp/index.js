@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, FormWrap, FormLabel, Icon, FormContent, Form, FormH1, FormInput } from './SignUpElements'
-import { Button } from '../ButtonElement'
+import { Container, FormWrap, FormLabel, Icon, FormContent, Form, FormH1, FormInput, FormButton } from './SignUpElements'
+
 
 const SignUp = () => {
     return (
@@ -17,7 +17,7 @@ const SignUp = () => {
                             <FormLabel htmlFor='for'>Password</FormLabel>
                             <FormInput type="password" required />
                         </Form>
-                        <Button>Continue</Button>
+                        <FormButton>Continue</FormButton>
                     </FormContent>
 
                 </Icon>

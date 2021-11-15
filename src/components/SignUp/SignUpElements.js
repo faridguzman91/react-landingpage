@@ -71,7 +71,7 @@ box-shadow: 0 1px 1px #52525291;
 
 export const FormH1 = styled.div`
 margin-bottom: 40px;
-color: #fff;
+color: #000000;
 font-size: 20px;
 font-weight: 400;
 text-align: center;
@@ -80,7 +80,7 @@ text-align: center;
 export const FormLabel = styled.label`
 margin-bottom: 8px;
 font-size: 14px;
-color: #fff;
+color: #000000;
 `
 
 export const FormInput = styled.input`
@@ -95,7 +95,7 @@ background: #2e7dcb;
 padding: 16px 0;
 border: none;
 border-radius: 4px;
-color: #fff;
+color: #000000;
 `
 
 export const Text = styled.div`
