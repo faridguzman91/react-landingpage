@@ -33,7 +33,6 @@ export const homeObjTwo = {
     dark: true,
     primary: true,
     darkText: false,
-
 }
 
 export const homeObjThree = {
@@ -51,5 +50,4 @@ export const homeObjThree = {
     dark: true,
     primary: true,
     darkText: false,
-
 }
