@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-router-dom'
+import { Link as LinkScroll } from 'react-scroll'
 
 export const Fonts = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
@@ -84,7 +84,7 @@ height: 80px;
 color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : 'transparent')};
 `
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkScroll)`
 
 color: #000000;
 display: flex;
