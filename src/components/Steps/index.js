@@ -4,7 +4,7 @@ import {
   StepsWrapper,
   StepsCircles,
   StepsNumbers,
-  StepsText,
+  StepsTriangle,
   CircleContainer,
   TextContainer,
   Text,
@@ -13,6 +13,7 @@ import {
 const StepsBar = ({stepComplete}) => {
   return (
     <StepsContainer>
+    <StepsTriangle/>
       <StepsWrapper>
         <CircleContainer>
           <StepsCircles stepComplete={true}>

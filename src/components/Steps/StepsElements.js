@@ -1,5 +1,14 @@
 import styled from 'styled-components'
 
+export const StepsTriangle = styled.div`
+width: 100%;
+height: 0;
+border-style: solid; 
+border-width: 10vw 20vw 0 0;
+border-color: #007bff transparent transparent transparent;
+position: relative;
+`
+
 
 export const StepsContainer = styled.div `
 width: 20%;
@@ -15,7 +24,7 @@ grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px; 
 top: 200px;
-position: relative;
+position: absolute;
 padding: 20px;
 
 
