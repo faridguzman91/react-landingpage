@@ -55,7 +55,7 @@ justify-content: center;
 `
 
 export const Form = styled.div `
-background: #cecece;
+background: #e4e4e4;
 max-width: 400px;
 height: auto;
 width: 100%;
@@ -64,7 +64,7 @@ display: grid;
 margin: 0 auto;
 padding: 80px 32px;
 border-radius: 4px;
-box-shadow: 0 1px 1px #52525291;
+/* box-shadow: 0 1px 1px #52525291; */
 position: relative;
 top: 100px;
 
