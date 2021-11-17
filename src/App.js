@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom'
 import Home from './pages/home'
 import SignUpPage from './pages/signup';
+import NewProject from './pages/newproject'
 // import NavBar from './components/NavBar';
 
 function App() {
@@ -14,8 +15,7 @@ function App() {
         </Switch>
         {/* <Home /> */}
         <SignUpPage />
-
-
+        <NewProject />
       </Router>
 
     </>

@@ -7,6 +7,7 @@ border-style: solid;
 border-width: 10vw 20vw 0 0;
 border-color: #007bff transparent transparent transparent;
 position: relative;
+z-index: 999;
 `
 
 
@@ -15,6 +16,7 @@ width: 20%;
 height: 90vh;
 background-color: #fff;
 position: fixed;
+z-index:999
 `
 
 export const StepsWrapper = styled.div `

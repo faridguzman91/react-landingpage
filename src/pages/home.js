@@ -18,17 +18,27 @@ const Home = () => {
     const toggle = () => {
         setIsOpen(!isOpen)
     }
-    return (
-        <>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <NavBar toggle={toggle} />
-            <HeroSection />
-            <Services />
-            <InfoSection {...homeObjOne} />
-            <InfoSection {...homeObjTwo} />
-            <InfoSection {...homeObjThree} />
-            <Footer />
-        </>
+    return ( <
+        >
+        <
+        Sidebar isOpen = { isOpen }
+        toggle = { toggle }
+        /> <
+        NavBar toggle = { toggle }
+        /> <
+        HeroSection / >
+        <
+        Services / >
+        <
+        InfoSection {...homeObjOne }
+        /> <
+        InfoSection {...homeObjTwo }
+        /> <
+        InfoSection {...homeObjThree }
+        /> <
+        Footer / >
+        <
+        />
     )
 }
 

@@ -1,24 +1,15 @@
 import React from "react";
-import SignUp from "../components/SignUp";
-import NavBar from "../components/NavBar";
-import StepsBar from "../components/Steps";
-import StepWizard from "react-step-wizard";
+import NewProjectPage from "../components/NewProject";
 
-const SignUpPage = () => {
-    return ( <
-        >
-        <
-        div >
-        <
-        NavBar / >
-        <
-        StepsBar / >
-        <
-        SignUp / >
-        <
-        /div> <
-        />
-    );
+
+
+const NewProject = () => {
+  return (
+    <>
+    <NewProjectPage/>
+     
+    </>
+  );
 };
 
-export default SignUpPage;
+export default NewProject

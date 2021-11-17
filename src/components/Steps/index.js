@@ -21,21 +21,21 @@ const StepsBar = ({stepComplete}) => {
           </StepsCircles>
       
         
-          <StepsCircles>
-            <StepsNumbers>2</StepsNumbers>
+          <StepsCircles stepComplete={false}>
+            <StepsNumbers stepComplete={false}>2</StepsNumbers>
           </StepsCircles>
  
-          <StepsCircles>
-            <StepsNumbers>3</StepsNumbers>
+          <StepsCircles stepComplete={false}>
+            <StepsNumbers stepComplete={false}>3</StepsNumbers>
           </StepsCircles>
    
           
-          <StepsCircles>
-            <StepsNumbers>4</StepsNumbers>
+          <StepsCircles stepComplete={false}>
+            <StepsNumbers stepComplete={false}>4</StepsNumbers>
           </StepsCircles>
 
-          <StepsCircles>
-  <StepsNumbers>5</StepsNumbers>
+          <StepsCircles stepComplete={false}>
+  <StepsNumbers stepComplete={false}>5</StepsNumbers>
 </StepsCircles>
 
           
