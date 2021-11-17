@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-export const Container = styled.div`
-min-height:692px;
+export const Container = styled.div `
+min-height:90vh;
 /* position: fixed; */
 bottom: 0;
 left: 0;
@@ -12,9 +12,10 @@ z-index: 0;
 overflow: hidden;
 background:#e4e4e4;
 
+
 `
 
-export const FormWrap = styled.div`
+export const FormWrap = styled.div `
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -25,7 +26,8 @@ export const FormWrap = styled.div`
 
     }
 `
-export const Icon = styled(Link)`
+export const Icon = styled(Link)
+`
 margin-left: 52px;
 margin-top: 32px;
 text-decoration: none;
@@ -40,7 +42,7 @@ font-size: 12px;
 
 `
 
-export const FormContent = styled.div`
+export const FormContent = styled.div `
 height: 100%;
 display: flex;
 flex-direction: column;
@@ -52,7 +54,7 @@ justify-content: center;
 }
 `
 
-export const Form = styled.div`
+export const Form = styled.div `
 background: #cecece;
 max-width: 400px;
 height: auto;
@@ -63,13 +65,15 @@ margin: 0 auto;
 padding: 80px 32px;
 border-radius: 4px;
 box-shadow: 0 1px 1px #52525291;
+position: relative;
+top: 100px;
 
 @media screen and (max-width: 400px) {
     padding: 32px 32px;
 }
 `
 
-export const FormH1 = styled.div`
+export const FormH1 = styled.div `
 margin-bottom: 40px;
 color: #000000;
 font-size: 20px;
@@ -77,20 +81,20 @@ font-weight: 400;
 text-align: center;
 `
 
-export const FormLabel = styled.label`
+export const FormLabel = styled.label `
 margin-bottom: 8px;
 font-size: 14px;
 color: #000000;
 `
 
-export const FormInput = styled.input`
+export const FormInput = styled.input `
 padding: 16px 16px;
 margin-bottom: 32px;
 border:none;
 border-radius: 40px;
 `
 
-export const FormButton = styled.button`
+export const FormButton = styled.button `
 background: #2e7dcb;
 padding: 16px 0;
 border: none;
@@ -103,7 +107,7 @@ color: #ffffff;
 }
 `
 
-export const Text = styled.div`
+export const Text = styled.div `
 text-align: center;
 margin-top: 24px;
 color: #fff;

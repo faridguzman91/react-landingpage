@@ -1,10 +1,12 @@
 import React from 'react'
+import StepsBar from '../Steps'
 import { Container, FormWrap, FormLabel, Icon, FormContent, Form, FormH1, FormInput, FormButton } from './SignUpElements'
 
 
 const SignUp = () => {
     return (
         <Container>
+            <StepsBar />
             <FormWrap>
                 <Icon to='/'>
                     <FormContent>
