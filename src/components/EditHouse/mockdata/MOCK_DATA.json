@@ -1,0 +1,166 @@
+[{
+        "house_id": 1,
+        "house_type": "A",
+        "type_name": "Appartement",
+        "status": "Offer",
+        "gbo": 95,
+        "roomcount": 46,
+        "terrace": 31,
+        "orientation": -7.6378396,
+        "price": "€47754,25"
+    },
+    {
+        "house_id": 2,
+        "house_type": "B",
+        "type_name": "Appartement",
+        "status": "Available",
+        "gbo": 37,
+        "roomcount": 100,
+        "terrace": 99,
+        "orientation": 41.2973128,
+        "price": "€88118,90"
+    },
+    {
+        "house_id": 3,
+        "house_type": "C",
+        "type_name": "Appartement",
+        "status": "Offer",
+        "gbo": 42,
+        "roomcount": 79,
+        "terrace": 93,
+        "orientation": 31.363043,
+        "price": "€5017,72"
+    },
+    {
+        "house_id": 4,
+        "house_type": "D",
+        "type_name": "Appartement",
+        "status": "Sold",
+        "gbo": 81,
+        "roomcount": 40,
+        "terrace": 5,
+        "orientation": 46.8700877,
+        "price": "€80227,36"
+    },
+    {
+        "house_id": 5,
+        "house_type": "E",
+        "type_name": "Appartement",
+        "status": "Available",
+        "gbo": 10,
+        "roomcount": 20,
+        "terrace": 92,
+        "orientation": 22.353499,
+        "price": "€99678,89"
+    },
+    {
+        "house_id": 6,
+        "house_type": "F",
+        "type_name": "Appartement",
+        "status": "Sold",
+        "gbo": 68,
+        "roomcount": 98,
+        "terrace": 22,
+        "orientation": 36.5029458,
+        "price": "€76624,10"
+    },
+    {
+        "house_id": 7,
+        "house_type": "G",
+        "type_name": "Appartement",
+        "status": "Available",
+        "gbo": 75,
+        "roomcount": 65,
+        "terrace": 54,
+        "orientation": 42.009313,
+        "price": "€43283,50"
+    },
+    {
+        "house_id": 8,
+        "house_type": "A",
+        "type_name": "Appartement",
+        "status": "Sold",
+        "gbo": 92,
+        "roomcount": 24,
+        "terrace": 85,
+        "orientation": 48.0201627,
+        "price": "€11584,02"
+    },
+    {
+        "house_id": 9,
+        "house_type": "B",
+        "type_name": "Available",
+        "status": "Puce",
+        "gbo": 24,
+        "roomcount": 23,
+        "terrace": 82,
+        "orientation": 23.6237888,
+        "price": "€38276,99"
+    },
+    {
+        "house_id": 10,
+        "house_type": "C",
+        "type_name": "Sold",
+        "status": "Khaki",
+        "gbo": 98,
+        "roomcount": 33,
+        "terrace": 25,
+        "orientation": 54.4626821,
+        "price": "€76822,20"
+    },
+    {
+        "house_id": 11,
+        "house_type": "D",
+        "type_name": "Appartement",
+        "status": "Offer",
+        "gbo": 24,
+        "roomcount": 11,
+        "terrace": 100,
+        "orientation": -1.7083922,
+        "price": "€50859,45"
+    },
+    {
+        "house_id": 12,
+        "house_type": "E",
+        "type_name": "Appartement",
+        "status": "Available",
+        "gbo": 59,
+        "roomcount": 83,
+        "terrace": 74,
+        "orientation": -33.1228052,
+        "price": "€15803,62"
+    },
+    {
+        "house_id": 13,
+        "house_type": "F",
+        "type_name": "Appartement",
+        "status": "Sold",
+        "gbo": 1,
+        "roomcount": 33,
+        "terrace": 34,
+        "orientation": 40.9303255,
+        "price": "€33793,64"
+    },
+    {
+        "house_id": 14,
+        "house_type": "G",
+        "type_name": "Appartement",
+        "status": "Offer",
+        "gbo": 88,
+        "roomcount": 46,
+        "terrace": 75,
+        "orientation": 59.954793,
+        "price": "€34118,92"
+    },
+    {
+        "house_id": 15,
+        "house_type": "E",
+        "type_name": "Appartement",
+        "status": "Available",
+        "gbo": 82,
+        "roomcount": 89,
+        "terrace": 61,
+        "orientation": 24.245418,
+        "price": "€33950,52"
+    }
+]

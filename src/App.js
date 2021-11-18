@@ -4,6 +4,7 @@ import Home from './pages/home'
 import SignUpPage from './pages/signup';
 import NewProject from './pages/newproject'
 // import NavBar from './components/NavBar';
+import EditHouse from './components/EditHouse';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         {/* <Home /> */}
         <SignUpPage />
         <NewProject />
+        <EditHouse />
+
       </Router>
 
     </>
