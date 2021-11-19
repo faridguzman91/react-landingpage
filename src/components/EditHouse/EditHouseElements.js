@@ -26,4 +26,12 @@ top: 70px;
 
   @media screen and (max-width: 400px) {
     height: 80%;
+  }
+`
+
+export const GlobalFilterSpan = styled.div`
+    position: relative;
+    margin-bottom: 10px;
+
+
 `
