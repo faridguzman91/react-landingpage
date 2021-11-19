@@ -7,7 +7,9 @@ import './table.css'
 const Table = () => {
   //Add hooks and dependency for no rerenders and recalculations
 
-  const columns = useMemo(() => GROUPED_COLUMNS, []);
+  //replace COLUMNS with Grouped COLUMNS for a grouped table
+
+  const columns = useMemo(() => COLUMNS, []);
   const data = useMemo(() => MOCK_DATA, []);
 
   const tableInstance = useTable({
