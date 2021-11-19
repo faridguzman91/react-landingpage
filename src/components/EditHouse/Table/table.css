@@ -28,11 +28,12 @@ h2 {
     position: relative;
     /* top: 100px; */
     left: 10vw;
+    border-radius: 10px;
 }
 
 .fl-table {
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 20px;
+    font-size: 15px;
     font-weight: normal;
     border: none;
     border-collapse: collapse;
@@ -50,21 +51,25 @@ h2 {
 
 .fl-table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .fl-table thead th {
-    color: #ffffff;
-    background: #4FC3A1;
+    color: #000000;
+    background: #e4fff7;
 }
 
 .fl-table thead th:nth-child(odd) {
     color: #ffffff;
-    background: #324960;
+    background: #0671c2;
 }
 
 .fl-table tr:nth-child(even) {
     background: #F8F8F8;
+}
+
+.fl-table tfoot {
+    background: rgb(232, 232, 232)
 }
 
 
