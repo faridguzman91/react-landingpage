@@ -72,10 +72,16 @@ h2 {
 
 .fl-table tr:hover {
     background: rgb(189, 189, 189);
+    transition: 0.2s ease-in;
 }
 
 .fl-table tr:nth-child(even) {
     background: #F8F8F8;
+}
+
+.fl-table tr:nth-child(even):hover {
+    background: rgb(189, 189, 189);
+    transition: 0.2s ease-in;
 }
 
 .fl-table tfoot {
