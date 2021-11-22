@@ -44,7 +44,7 @@ h2 {
     width: 75vw;
     max-width: 100%;
     white-space: nowrap;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
 }
 
 .fl-table td,
@@ -65,17 +65,22 @@ h2 {
     background: rgb(99, 99, 99);
     color: white;
     font-family: 'Silka', sans-serif;
+    font-weight: 100;
 }
 
 .fl-table thead th {
-    color: #000000;
-    background: #e4fff7;
+    color: #fcfcfc;
+    background: #007bff;
     font-family: 'Silka', sans-serif;
+    font-weight: 800;
+    padding: 13px;
 }
 
 .fl-table thead th:nth-child(odd) {
-    color: #ffffff;
-    background: #0671c2;
+    color: #007bff;
+    background: rgb(248, 248, 248);
+    font-family: 'Silka', sans-serif;
+    font-weight: 800;
 }
 
 .fl-table tr:hover {
@@ -116,7 +121,7 @@ h2 {
     border-radius: 5px;
     padding: 10px;
     font-family: 'Silka', sans-serif;
-    background: rgb(53, 131, 204);
+    background: #007bff;
     color: #fff;
     cursor: pointer;
     margin-right: 1rem;
@@ -124,7 +129,7 @@ h2 {
 
 .nextButton {
     border: none;
-    background: rgb(53, 131, 204);
+    background: #007bff;
     border-radius: 5px;
     padding: 10px;
     font-family: 'Silka', sans-serif;
@@ -143,7 +148,7 @@ h2 {
 .firstPage,
 .lastPage {
     border: none;
-    background: rgb(53, 131, 204);
+    background: #007bff;
     border-radius: 5px;
     padding: 10px;
     font-family: 'Silka', sans-serif;
@@ -158,6 +163,15 @@ h2 {
     background: white;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.549);
     transition: 0.1s ease-in;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid rgb(61, 151, 211);
+    border-radius: 5px;
+    background: white;
+    font-family: 'Silka', sanf-serif;
+    margin: 0 10px;
 }
 
 

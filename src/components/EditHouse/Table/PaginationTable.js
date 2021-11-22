@@ -37,10 +37,12 @@ const PaginationTable = () => {
     prepareRow,
     state,
     setGlobalFilter,
+    setPageSize
   } = useTable(
     {
       columns,
       data,
+      initialState: {pageIndex : 0},
       
       // manualPagination : true,
       // pageCount: -1,
@@ -124,6 +126,13 @@ const PaginationTable = () => {
                      goToPage(pageNumber)}} 
                      style={{width: '50px'}}/>
                 </span>
+                <select value={pageSize} onChange={e => setPageSize(Number(e.target.value))}>
+                  {
+                    [10, 25, 50].map(pageSize => (
+                      <option key={pageSize} value={pageSize}>Show quantity: {pageSize}</option>
+                    ))
+                  }
+                </select>
                 
         <div className='paginationButtons'>
             <button className='firstPage' onClick={() => goToPage(0)} disabled={!canPreviousPage}>{'<<'}</button>
