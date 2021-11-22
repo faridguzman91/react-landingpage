@@ -90,7 +90,7 @@ export const FormInput = styled.input `
 `;
 
 export const FormButton = styled.button `
-  background: #2e7dcb;
+  background: #007bff;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
@@ -126,7 +126,7 @@ width: 100px;
 height: 80px;
 
 &:hover {
-    background: #2e7dcb;
+    background: #007bff;
     color: white;
     transition: 0.1s ease-in
 }
