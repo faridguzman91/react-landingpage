@@ -32,6 +32,8 @@ const PaginationTable = () => {
     canNextPage,
     canPreviousPage,
     pageOptions,
+    goToPage,
+    pageCount,
     prepareRow,
     state,
     setGlobalFilter,
@@ -112,6 +114,7 @@ const PaginationTable = () => {
                 {pageIndex + 1} of {pageOptions.length}                
                 </strong>    
                 </span>
+                <button onClick={() => goToPage(0)} disbled={!canPreviousPage}>{'<<'}</button>
         <div className='paginationButtons'>
             <button className='prevButton' onClick={() => previousPage()} disabled={!canPreviousPage}>Previous</button>
             <button className='nextButton' onClick={() => nextPage()} disabled={!canNextPage}>Next</button>
