@@ -24,8 +24,8 @@ top: 70px;
   border: 0.2px solid #b5b5b5;
   border-radius: 5px;
   left: 20vw;
-  width: 95vw;
-  max-width: 98vw;
+ width: 77vw;
+max-width: 80vw;
 
   @media screen and (max-width: 400px) {
     height: 80%;

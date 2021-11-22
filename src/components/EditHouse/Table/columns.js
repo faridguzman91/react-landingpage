@@ -40,7 +40,7 @@ export const COLUMNS = [
     Filter: ColumnFilter
   },
   {
-    Header: "Terrace",
+    Header: "Terrace, m2",
     Footer: "Terrace",
     accessor: "terrace",
     Filter: ColumnFilter

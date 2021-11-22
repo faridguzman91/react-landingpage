@@ -41,6 +41,9 @@ const PaginationTable = () => {
     {
       columns,
       data,
+      
+    //   manualPagination : true,
+      pageCount: -1,
       defaultColumn,
     },
 
@@ -51,7 +54,7 @@ const PaginationTable = () => {
     usePagination,
   );
 
-  const { globalFilter, pageIndex } = state;
+  const { globalFilter, pageIndex, pageSize } = state;
 
   //HTML TABLE
 
@@ -114,10 +117,12 @@ const PaginationTable = () => {
                 {pageIndex + 1} of {pageOptions.length}                
                 </strong>    
                 </span>
-                <button onClick={() => goToPage(0)} disbled={!canPreviousPage}>{'<<'}</button>
+                
         <div className='paginationButtons'>
+            <button className='firstPage' onClick={() => goToPage(0)} disabled={!canPreviousPage}>{'<<'}</button>
             <button className='prevButton' onClick={() => previousPage()} disabled={!canPreviousPage}>Previous</button>
             <button className='nextButton' onClick={() => nextPage()} disabled={!canNextPage}>Next</button>
+            <button className='lastPage' onClick={() => goToPage(pageCount - 1)} disabled={!canNextPage}>{'>>'}</button>
         </div>
       </div>
       </div>
