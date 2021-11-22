@@ -51,18 +51,21 @@ h2 {
 
 .fl-table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 13px;
+    font-size: 15px;
+    font-family: 'Silka', sans-serif;
 }
 
 .fl-table td:hover {
     cursor: pointer;
     background: rgb(99, 99, 99);
     color: white;
+    font-family: 'Silka', sans-serif;
 }
 
 .fl-table thead th {
     color: #000000;
     background: #e4fff7;
+    font-family: 'Silka', sans-serif;
 }
 
 .fl-table thead th:nth-child(odd) {
@@ -95,6 +98,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Silka', sans-serif;
 }
 
 .paginationButtons {
