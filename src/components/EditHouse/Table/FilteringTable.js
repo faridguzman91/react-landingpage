@@ -53,7 +53,7 @@ const FilteringTable = () => {
   return (
     <>
       <div className="table-wrapper">
-        <Search filter={globalFilter} setFilter={setGlobalFilter} />
+        <Search filter={globalFilter} setFilter={setGlobalFilter} className='searchBar'/>
 
         <table {...getTableProps} className="fl-table">
           <thead>

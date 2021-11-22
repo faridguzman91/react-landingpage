@@ -32,6 +32,14 @@ top: 70px;
 export const GlobalFilterSpan = styled.div`
     position: relative;
     margin-bottom: 10px;
+    font-family: 'Silka', sans-serif;
+
+    &.input {
+      padding: 5px;
+      width: 200px;
+      
+    }
+
 
 
 `

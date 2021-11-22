@@ -95,10 +95,12 @@ export const FormButton = styled.button `
   border: none;
   border-radius: 4px;
   color: #ffffff;
+  font-size: 20p;
 
   &:hover {
     background: #fff;
     color: #000;
+     transition: 0.1s ease-in
   }
 `;
 
@@ -112,6 +114,10 @@ export const Text = styled.div `
 export const UploadFormButton = styled.div `
 background: #fff;
 padding: 16px 0;
+font-size: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
 border: none;
 border-radius: 4px;
 color: #000;
@@ -121,5 +127,7 @@ height: 80px;
 
 &:hover {
     background: #2e7dcb;
+    color: white;
+    transition: 0.1s ease-in
 }
 `

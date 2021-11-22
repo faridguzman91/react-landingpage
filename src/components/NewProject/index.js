@@ -11,6 +11,7 @@ import {
   FormButton,
   UploadFormButton
 } from "./NewProjectElements";
+import { AiOutlineUpload } from 'react-icons/ai'
 
 const NewProjectPage = () => {
   return (
@@ -25,7 +26,7 @@ const NewProjectPage = () => {
               <FormLabel htmlFor="for">Number of Houses</FormLabel>
               <FormInput type="email" required />
               <FormLabel htmlFor="for">Upload Image</FormLabel>
-              <UploadFormButton>max size: 5mb minimal resolution 1920 x 1080</UploadFormButton>
+              <UploadFormButton alt="Upload Image" title='Max upload size: 5mb. Max resolution: 1920x1080'>< AiOutlineUpload /></UploadFormButton>
               <FormButton>Continue</FormButton>
             </Form>
           </FormContent>
