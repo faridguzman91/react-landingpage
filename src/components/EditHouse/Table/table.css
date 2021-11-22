@@ -140,6 +140,26 @@ h2 {
     transition: 0.1s ease-in;
 }
 
+.firstPage,
+.lastPage {
+    border: none;
+    background: rgb(53, 131, 204);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Silka', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.firstPage:hover,
+.lastPage:hover {
+    color: black;
+    background: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.549);
+    transition: 0.1s ease-in;
+}
+
 
 /* Responsive */
 

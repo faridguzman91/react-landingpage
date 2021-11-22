@@ -42,8 +42,8 @@ const PaginationTable = () => {
       columns,
       data,
       
-    //   manualPagination : true,
-      pageCount: -1,
+      // manualPagination : true,
+      // pageCount: -1,
       defaultColumn,
     },
 
@@ -116,6 +116,13 @@ const PaginationTable = () => {
             <strong>
                 {pageIndex + 1} of {pageOptions.length}                
                 </strong>    
+                </span>
+                <span className='goTo'>
+                   | Go to page : {' '}
+                   <input type='number' defaultValue={pageIndex + 1} onChange={e => {
+                     const pageNumber = e.target.value ? Number(e.target.value) -1 : 0 
+                     goToPage(pageNumber)}} 
+                     style={{width: '50px'}}/>
                 </span>
                 
         <div className='paginationButtons'>
