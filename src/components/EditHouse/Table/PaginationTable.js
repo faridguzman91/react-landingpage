@@ -1,14 +1,13 @@
 import React, { useMemo } from "react";
-import { useTable, useSortBy, useGlobalFilter, useFilters } from "react-table";
+import { useTable, useSortBy, useGlobalFilter, useFilters, usePagination } from "react-table";
 import MOCK_DATA from "../mockdata/MOCK_DATA.json";
 import { COLUMNS, GROUPED_COLUMNS } from "./columns";
 import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai";
 import "./table.css";
 import Search from "../Functions/GlobalFilter";
-import ColumnFilter  from "../Functions/ColumnFilter";
+import ColumnFilter from "../Functions/ColumnFilter";
 
-
-const FilteringTable = () => {
+const PaginationTable = () => {
   //Add hooks and dependency for no rerenders and recalculations
 
   //replace COLUMNS with Grouped COLUMNS for a grouped table
@@ -16,20 +15,23 @@ const FilteringTable = () => {
   const columns = useMemo(() => GROUPED_COLUMNS, []);
   const data = useMemo(() => MOCK_DATA, []);
   const defaultColumn = useMemo(
-  () => ({
-    // Let's set up our default Filter UI
-    Filter: ColumnFilter,
-  }),
-  []
-)
-
+    () => ({
+      // Let's set up our default Filter UI
+      Filter: ColumnFilter,
+    }),
+    []
+  );
 
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
-    footerGroups,
-    rows,
+    page,
+    nextPage,
+    previousPage,
+    canNextPage,
+    canPreviousPage,
+    pageOptions,
     prepareRow,
     state,
     setGlobalFilter,
@@ -37,16 +39,17 @@ const FilteringTable = () => {
     {
       columns,
       data,
-      defaultColumn
+      defaultColumn,
     },
 
     //useSortBy table utility
     useFilters,
     useGlobalFilter,
-    useSortBy
+    useSortBy,
+    usePagination,
   );
 
-  const { globalFilter } = state;
+  const { globalFilter, pageIndex } = state;
 
   //HTML TABLE
 
@@ -65,12 +68,10 @@ const FilteringTable = () => {
                     {column.render("Header")}
 
                     {/* add column filtering if necessary */}
-                    
+
                     {/* <div>{column.canFilter ? column.render("Filter") : ""}</div> */}
 
-                 
                     <span>
-                        
                       {/* if is sorted true => if descending true, up arrow, else down arrow => if sorted is false = '' */}
                       {column.isSorted ? (
                         column.isSortedDesc ? (
@@ -82,15 +83,13 @@ const FilteringTable = () => {
                         ""
                       )}
                     </span>
-                   
-
                   </th>
                 ))}
               </tr>
             ))}
           </thead>
           <tbody {...getTableBodyProps()}>
-            {rows.map((row) => {
+            {page.map((row) => {
               prepareRow(row);
               return (
                 <tr {...row.getRowProps()}>
@@ -104,38 +103,23 @@ const FilteringTable = () => {
               );
             })}
           </tbody>
-          <tfoot>
-            {footerGroups.map((footerGroup) => (
-              <tr {...footerGroup.getFooterGroupProps()}>
-                {
-                  //get access to each column
-                  footerGroup.headers.map((column) => (
-                    <td
-                      {...column.getFooterProps(column.getSortByToggleProps())}
-                    >
-                      <span>
-                        {/* if is sorted true => if descending true, up arrow, else down arrow => if sorted is false = '' */}
-                        {column.isSorted ? (
-                          column.isSortedDesc ? (
-                            <AiFillCaretUp />
-                          ) : (
-                            <AiFillCaretDown />
-                          )
-                        ) : (
-                          ""
-                        )}
-                      </span>
-                      {column.render("Footer")}
-                    </td>
-                  ))
-                }
-              </tr>
-            ))}
-          </tfoot>
+        {/* to see footer section see filteringtable.js */}
         </table>
+        <div className='paginationBox'>
+        <span className='paginationText'>
+            Page{' '}
+            <strong>
+                {pageIndex + 1} of {pageOptions.length}                
+                </strong>    
+                </span>
+        <div className='paginationButtons'>
+            <button className='prevButton' onClick={() => previousPage()} disabled={!canPreviousPage}>Previous</button>
+            <button className='nextButton' onClick={() => nextPage()} disabled={!canNextPage}>Next</button>
+        </div>
+      </div>
       </div>
     </>
   );
 };
 
-export default FilteringTable;
+export default PaginationTable;

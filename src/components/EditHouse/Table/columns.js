@@ -6,7 +6,8 @@ export const COLUMNS = [
     Header: "House Id",
     Footer: "House Id",
     accessor: "house_id",
-    Filter: ColumnFilter
+    Filter: ColumnFilter,
+    disableFilters: true
   },
   {
     Header: "House Type",

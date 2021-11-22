@@ -72,6 +72,48 @@ h2 {
     background: rgb(232, 232, 232)
 }
 
+.paginationBox {
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationButtons {
+    margin-left: 10px;
+}
+
+.prevButton {
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Silka', sans-serif;
+    background: rgb(53, 131, 204);
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.nextButton {
+    border: none;
+    background: rgb(53, 131, 204);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Silka', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+    color: black;
+    background: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.549);
+}
+
 
 /* Responsive */
 
