@@ -13,10 +13,10 @@ z-index: 999;
 
 export const StepsContainer = styled.div `
 width: 20%;
-height: 90vh;
-background-color: #fff;
+height: 98vh;
+background-color: #ffffffd0;
 position: fixed;
-z-index:999
+z-index:999;
 `
 
 export const StepsWrapper = styled.div `

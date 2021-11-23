@@ -11,7 +11,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background-image: url("https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("https://images.unsplash.com/photo-1629118938047-0f28bbe5af7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80");
   /* background: linear-gradient(126deg, rgba(235,235,235,1) 0%, rgba(242,242,242,1) 35%, rgba(199,199,199,1) 100%);  */
   background-size: cover;
   object-fit: contain;
@@ -56,12 +56,14 @@ export const FormContent = styled.div`
 `;
 
 export const Form = styled.div`
-  background: #dfdfdfa3;
+  background: #f0f0f0ae;
 
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   max-width: fit-content;
   height: auto;
   width: max-content;
+/* clip-path: inset(10em); */
+  /* filter: blur(5px); */
   z-index: 1;
   display: grid;
   margin: 0 auto;
@@ -74,7 +76,7 @@ export const Form = styled.div`
 
   background-attachment: fixed;
 
-  &::before {
+  &::after {
     /* width: 400px;
   height: 550px; */
     content: "";
@@ -85,7 +87,7 @@ export const Form = styled.div`
     right: 0;
     background: inherit;
 
-    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.165);
+    box-shadow: inset 200px rgba(225, 225, 225, 0.734);
     filter: blur(1px);
     z-index: 3;
   }

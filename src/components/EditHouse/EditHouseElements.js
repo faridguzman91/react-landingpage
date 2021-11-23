@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const TableWrapper = styled.div`
 position: relative;
-top: 70px;
+top: 150px;
   height: fit-content;
   display: flex;
   flex-direction: column;

@@ -10,7 +10,7 @@ export const Container = styled.div `
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: #e4e4e4;
+  /* background: #e4e4e4; */
   /* background-image: url('https://images.unsplash.com/photo-1557243962-5a60796cd474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
   background-size: cover; */
 object-fit: contain;
