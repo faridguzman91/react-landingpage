@@ -11,8 +11,12 @@ right: 0;
 top: 0;
 z-index: 0;
 overflow: hidden;
-background:#e4e4e4;
-
+ background-image: url('https://images.unsplash.com/photo-1603901622056-0a5bee231395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1462&q=80') ;
+/* background: linear-gradient(126deg, rgba(235,235,235,1) 0%, rgba(242,242,242,1) 35%, rgba(199,199,199,1) 100%);  */
+background-size: cover;
+object-fit: contain;
+background-repeat: no-repeat;
+filter: ;
 
 `
 
@@ -56,10 +60,10 @@ justify-content: center;
 `
 
 export const Form = styled.div `
-background: #e4e4e4;
-max-width: 400px;
+background: #e4e4e4e3;
+max-width: fit-content;
 height: auto;
-width: 100%;
+width: max-content;
 z-index: 1;
 display: grid;
 margin: 0 auto;
@@ -86,13 +90,16 @@ export const FormLabel = styled.label `
 margin-bottom: 8px;
 font-size: 14px;
 color: #000000;
+font-family: 'Silka', sans-serif;
 `
 
 export const FormInput = styled.input `
-padding: 16px 16px;
-margin-bottom: 32px;
-border:none;
-border-radius: 8px;
+padding: 10px 9px;
+margin-bottom: 18px;
+border: none;
+border-radius: 3px;
+font-family: 'Silka', sans-serif;
+
 `
 
 export const FormButton = styled.button `
@@ -113,6 +120,7 @@ text-align: center;
 margin-top: 24px;
 color: #fff;
 font-size: 14px;
+font-family: 'Silka', sans-serif;
 `
 
 export const HiddenCheckbox = styled.input.attrs({ type: 'checkbox '})`
@@ -151,13 +159,13 @@ ${CheckboxIcon} {
 `
 
 export const CheckboxContainer = styled.div`
-display: inline-block;
-vertical-align: middle;
+display: initial;
+vertical-align: super;
 margin-bottom: 10px;
 padding: 5px;
 color: #000;
 width: 500px;
-font-size: 16px;
+font-size: 14px;
 text-align: left;
 
 input{

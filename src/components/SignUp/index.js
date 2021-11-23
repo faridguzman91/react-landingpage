@@ -34,12 +34,15 @@ const SignUp = () => {
           <FormContent>
             <Form>
               <FormH1>Create new account</FormH1>
-              <FormLabel htmlFor="for">Name</FormLabel>
-              <FormInput type="name" required />
+              <FormLabel htmlFor="for" >Name</FormLabel>
+              <FormInput type="name" placeholder="Enter name" required />
+                <FormLabel htmlFor="for">Company</FormLabel>
+              <FormInput type="Company" placeholder = "Enter company name"required />
               <FormLabel htmlFor="for">Email</FormLabel>
-              <FormInput type="email" required />
+              <FormInput type="email" placeholder = "Enter your email" required />
               <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput type="password" required />
+              <FormInput type="password" placeholder = "Enter password"required />
+              
               {/* <label>
                                 <Checkbox checked={this.state.checked} onChange={this.handleCheckboxChange}/>
                             </label> */}
@@ -54,7 +57,7 @@ const SignUp = () => {
                 onChange={handleChangeTwo}
               />
 
-              <FormButton>Continue</FormButton>
+              <FormButton>Sign Up</FormButton>
             </Form>
           </FormContent>
         </Icon>

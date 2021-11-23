@@ -4,6 +4,7 @@ import Table from './Table/Table'
 import SortingTable from './Table/SortingTable'
 import FilteringTable from './Table/FilteringTable'
 import PaginationTable from './Table/PaginationTable'
+import RowSelectionTable from './Table/RowSelectionTable'
 
 const EditHouse = () => {
     return (
@@ -13,7 +14,8 @@ const EditHouse = () => {
                     {/* <Table />
                     <SortingTable /> */}
                     {/* <FilteringTable /> */}
-                    <PaginationTable/>
+                    {/* <PaginationTable/> */}
+                    <RowSelectionTable />
                 </TableWrapper>
 
             </Container>
