@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Container = styled.div `
-  min-height: 90vh;
+  min-height: 98vh;
   /* position: fixed; */
   bottom: 0;
   left: 0;
@@ -11,6 +11,12 @@ export const Container = styled.div `
   z-index: 0;
   overflow: hidden;
   background: #e4e4e4;
+  /* background-image: url('https://images.unsplash.com/photo-1557243962-5a60796cd474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover; */
+object-fit: contain;
+background-repeat: no-repeat;
+fill-opacity: 0.8;
+
 `;
 
 export const FormWrap = styled.div `
@@ -50,18 +56,24 @@ export const FormContent = styled.div `
 `;
 
 export const Form = styled.div `
-  background: #e4e4e4;
-  max-width: 400px;
+  background: #e6e6e6e1;
+  /* max-width: fit-content; */
   height: auto;
-  width: 100%;
+  width: 550px;
   z-index: 1;
   display: grid;
   margin: 0 auto;
   padding: 80px 32px;
   border-radius: 4px;
-  /* box-shadow: 0 1px 1px #52525291; */
+ box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   position: relative;
   top: 100px;
+   background-attachment: fixed;
+
+   &::before{ background: inherit;
+     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+
+   }
 
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
