@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
 //$ variables dependant on Data.js property values
 
 export const HeroContainer = styled.div`
-background: #2498fe;
+background: #ffffff;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -71,7 +71,8 @@ left: 10%;
 border-radius: 20px;
 overflow: hidden;
 z-index: 1000;
-box-shadow: 0px 2px 2px 2px #00000054;
+/* box-shadow: 0px 2px 2px 2px #00000054; */
+ border: 1px solid #9b9b9b;
 
 &:after{
     content: '';
@@ -86,8 +87,9 @@ box-shadow: 0px 2px 2px 2px #00000054;
  /* top: -25px;   */
  /* top position */
  bottom: 0;
- box-shadow: inset 0 0 0 200px #f7f7f7b9;
- filter: blur(2px);
+ box-shadow: inset 0 0 0 200px #f7f7f7de;
+
+ filter: blur(1px);
 
 }
 
