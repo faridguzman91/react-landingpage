@@ -5,12 +5,12 @@ import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
 //$ variables dependant on Data.js property values
 
 export const HeroContainer = styled.div`
-background: #c0c0c09d;
+background: #2498fe;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 30px;
-height: 800px;
+padding: 30px;
+height: 850px;
 position: relative;
 background-image: url('../images/background_img/img1.jpeg');
 z-index: 1;
@@ -36,27 +36,37 @@ left: 0;
 width: 100%;
 height: 100%;
 overflow: hidden;
+padding: 20px;
 `
 
 export const VideoBg = styled.video`
-width: 100%;
-height: 100%;
+width: 80%;
+height: 90%;
+margin: auto;
+right: 10px;
+top: 10px;
+padding: 20px;
+border-radius: 40px;
+border: 2px solid #fff;
+position: absolute;
 -o-object-fit: cover;
 object-fit: cover;
-background: #6a6a77;
-
+background: #ffffff;
+box-shadow: 0px 2px 2px 2px #00000067;
+margin-bottom: 10px;
 `
 
 export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
+
 position: absolute;
 padding: 70px;
 display: flex;
 flex-direction: column;
 align-items: center;
 top: 30%;
-left: 20%;
+left: 10%;
 /* background: inherit; */
 border-radius: 20px;
 overflow: hidden;

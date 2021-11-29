@@ -43,7 +43,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, lightTextDescr
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={reactImage} alt={alt} />
+                                <Img src={img} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
