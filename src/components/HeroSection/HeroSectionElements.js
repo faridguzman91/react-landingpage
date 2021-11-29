@@ -40,18 +40,18 @@ padding: 20px;
 `
 
 export const VideoBg = styled.video`
-width: 80%;
+width: 60%;
 height: 90%;
 margin: auto;
-right: 10px;
+right: 10vw;
 top: 10px;
-padding: 20px;
-border-radius: 40px;
-border: 2px solid #fff;
+padding: 8px;
+border-radius: 20px;
+border: 1px solid #333333;
 position: absolute;
 -o-object-fit: cover;
 object-fit: cover;
-background: #ffffff;
+background: #525252;
 box-shadow: 0px 2px 2px 2px #00000067;
 margin-bottom: 10px;
 `
@@ -66,13 +66,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 top: 30%;
-left: 10%;
+left: 5%;
 /* background: inherit; */
 border-radius: 20px;
 overflow: hidden;
 z-index: 1000;
 /* box-shadow: 0px 2px 2px 2px #00000054; */
- border: 1px solid #9b9b9b;
+ border: 2px solid #595959;
 
 &:after{
     content: '';
