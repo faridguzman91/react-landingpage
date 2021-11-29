@@ -1,7 +1,7 @@
 import React from 'react'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 import { Button } from '../ButtonElement'
-// import reactImage from '../assets/images/react.svg'
+import reactImage from '../assets/images/react.svg'
 //n
 
 
@@ -43,7 +43,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, lightTextDescr
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src={reactImage} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

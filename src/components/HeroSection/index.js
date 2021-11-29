@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Video from '../../video/reactapp.mp4'
 import { Button } from '../ButtonElement'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroSectionElements'
+import '../LandingPage/landingpage.scss'
 
 const HeroSection = () => {
 
@@ -13,8 +14,8 @@ const HeroSection = () => {
 
     return (
         <HeroContainer>
-            <HeroBg>
-                <VideoBg autoplay loop muted src={Video} type='video/mp4' />
+            <HeroBg className='heroBackground'>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Map Tool</HeroH1>

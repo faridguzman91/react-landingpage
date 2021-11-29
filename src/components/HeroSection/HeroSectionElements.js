@@ -1,16 +1,18 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
+// import Img1 from '../images/img1.jpeg'
 
 //$ variables dependant on Data.js property values
 
 export const HeroContainer = styled.div`
-background: #6a6a77;
+background: #c0c0c09d;
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
 height: 800px;
 position: relative;
+background-image: url('../images/background_img/img1.jpeg');
 z-index: 1;
 
 :before {
@@ -20,8 +22,7 @@ z-index: 1;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #3688df33 0%, #5db0f099 100%),
-    linear-gradient(180deg, #e5f1ffb0 0%, transparent 100%);
+    background-image: url('../images/background_img/img1.jpeg');
     z-index: 1;
 }
 `
@@ -37,7 +38,7 @@ height: 100%;
 overflow: hidden;
 `
 
-export const VideoBg = styled.div`
+export const VideoBg = styled.video`
 width: 100%;
 height: 100%;
 -o-object-fit: cover;
@@ -50,18 +51,43 @@ export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8px 24px;
+padding: 70px;
 display: flex;
 flex-direction: column;
 align-items: center;
 top: 30%;
 left: 20%;
+/* background: inherit; */
+border-radius: 20px;
+overflow: hidden;
+z-index: 1000;
+box-shadow: 0px 2px 2px 2px #00000054;
+
+&:after{
+    content: '';
+    z-index: 0;
+ width: 100%;
+ height: 100%;
+ background: inherit; 
+ position: absolute;
+ left: 0px;
+ /* left position */
+ right: 0px;
+ /* top: -25px;   */
+ /* top position */
+ bottom: 0;
+ box-shadow: inset 0 0 0 200px #f7f7f7b9;
+ filter: blur(2px);
+
+}
+
 `
 
 export const HeroH1 = styled.h1`
-color: #fff;
+color: #3d3d3d;
 font-size: 48px;
 text-align: center;
+z-index: 990;
 
 @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -74,11 +100,13 @@ text-align: center;
 `
 
 export const HeroP = styled.p`
+z-index: 9999;
 margin-top: 24px;
-color: #fff;
+color: #313131;
 font-size: 24px;
 text-align: center;
 max-width: 600px;
+text-shadow: 0 0 0 2px;
 
 @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -95,6 +123,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 font-family: 'Lato', sans-serif;
+z-index: 999;
 
 %:hover {
     transition: all 0.2s ease-in-out;
@@ -105,7 +134,7 @@ export const ArrowForward = styled(MdArrowForward)`
 margin-left: 8px;
 font-size: 20px;
 
-%:hover {
+&:hover {
     transition: all 0.2s ease-in-out;
 }
 `
@@ -114,7 +143,7 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 margin-left: 8px;
 font-size: 20px;
 
-%:hover {
+&:hover {
     transition: all 0.2s ease-in-out;
 }
 `

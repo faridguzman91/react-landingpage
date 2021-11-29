@@ -1,5 +1,5 @@
 // import reactImage from '../assets/images/react.svg'
-// import reactImg2 from '../assets/images/draw_and_publish.png'
+import reactImg2 from '../assets/images/draw_and_publish.png'
 
 export const homeObjOne = {
     id: 'about',
@@ -11,7 +11,7 @@ export const homeObjOne = {
     description: 'Quickly and easily draw available lot using the drawing tool',
     buttonLabel: 'Try it for free >',
     imgStart: false,
-    img: require('../assets/images/react.svg'),
+    img: {reactImg2},
     alt: 'Drawing',
     dark: true,
     primary: true,
