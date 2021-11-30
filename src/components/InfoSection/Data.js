@@ -4,7 +4,7 @@ import reactImg2 from '../assets/images/draw_and_publish.png'
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
-    lightText: false,
+    lightText: true,
     lightTextDescription: true,
     topLine: 'Create SVGs for your configurators easily',
     headLine: 'with the Map Tool',
@@ -15,7 +15,7 @@ export const homeObjOne = {
     alt: 'Drawing',
     dark: true,
     primary: true,
-    darkText: false,
+    darkText: true,
 }
 
 export const homeObjTwo = {

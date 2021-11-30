@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#d3d3d3')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#2d87e8')};
 font-family: 'Lato', sans-serif;
  
 @media screen and (max-width: 768px) {
@@ -63,6 +63,7 @@ font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
+color: ${({ lightText }) => (lightText ? '#000000' : '#ffffff')};
 `
 
 export const Heading = styled.h1`
