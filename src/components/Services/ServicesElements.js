@@ -24,12 +24,12 @@ background: #fff;
 `
 
 export const ServicesWrapper = styled.div`
-max-width: 1000px;
+max-width: 90%;
 margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
-grid-gap: 16px;
+grid-gap: 36px;
 padding: 0 50px;
 
 @media screen and (max-width: 1000px) {
@@ -52,7 +52,7 @@ flex-direction: column;
 align-items: center;
 border-radius: 10px;
 height: 420px;
-padding: 30px;
+padding: 40px;
 box-shadow: 0 2px 2px 2px #28282846;
 transition: all 0.2s ease-in-out;
 
@@ -61,7 +61,6 @@ transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
-
 `
 
 export const ServicesIcon = styled.img`
