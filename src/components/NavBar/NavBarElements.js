@@ -102,7 +102,8 @@ cursor: pointer;
     color: #ffffff;
 }
     &:hover {
-        color: #ffffff;
+        color: #464646;
+        /* border: 1px solid black; */
         transition: 0.2s ease-in-out;
     }
 
