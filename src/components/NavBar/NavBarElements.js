@@ -99,10 +99,10 @@ cursor: pointer;
 &.active {
     border-bottom: 5px solid #ffffff;
     transition: 0.2s ease-in-out;
-    color: white;
+    color: #ffffff;
 }
     &:hover {
-        color: #000;
+        color: #ffffff;
         transition: 0.2s ease-in-out;
     }
 
