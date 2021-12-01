@@ -3,6 +3,7 @@ import Video from '../../video/reactapp.mp4'
 import { Button } from '../ButtonElement'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroSectionElements'
 import '../LandingPage/landingpage.scss'
+import 'animate.css'
 
 const HeroSection = () => {
 
@@ -15,9 +16,9 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg className='heroBackground'>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4' className="animate__animated animate__fadeInUp" />
             </HeroBg>
-            <HeroContent>
+            <HeroContent className = "animate__animated animate__fadeInUp">
                 <HeroH1>Map Tool</HeroH1>
                 <HeroP>Now draw interactive maps yourself</HeroP>
                 <HeroBtnWrapper>

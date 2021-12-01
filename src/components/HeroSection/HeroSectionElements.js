@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
+import 'animate.css'
 // import Img1 from '../images/img1.jpeg'
 
 //$ variables dependant on Data.js property values
@@ -54,6 +55,7 @@ object-fit: cover;
 background: #525252;
 box-shadow: 0px 2px 2px 2px #00000067;
 margin-bottom: 10px;
+animation: ;
 `
 
 export const HeroContent = styled.div`
