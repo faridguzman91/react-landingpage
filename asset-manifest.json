@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-landingpage/static/css/main.dcafd4ac.chunk.css",
-    "main.js": "/react-landingpage/static/js/main.3ba4d3c3.chunk.js",
-    "main.js.map": "/react-landingpage/static/js/main.3ba4d3c3.chunk.js.map",
+    "main.js": "/react-landingpage/static/js/main.8a084e1d.chunk.js",
+    "main.js.map": "/react-landingpage/static/js/main.8a084e1d.chunk.js.map",
     "runtime-main.js": "/react-landingpage/static/js/runtime-main.2eca34de.js",
     "runtime-main.js.map": "/react-landingpage/static/js/runtime-main.2eca34de.js.map",
     "static/css/2.a1596f27.chunk.css": "/react-landingpage/static/css/2.a1596f27.chunk.css",
@@ -15,11 +15,11 @@
     "static/media/code.d399b4a6.svg": "/react-landingpage/static/media/code.d399b4a6.svg",
     "static/media/draw_and_publish.0334a414.png": "/react-landingpage/static/media/draw_and_publish.0334a414.png",
     "static/media/fill_Form.beec18af.svg": "/react-landingpage/static/media/fill_Form.beec18af.svg",
-    "static/media/innovative.d74996f2.svg": "/react-landingpage/static/media/innovative.d74996f2.svg",
     "static/media/react.86ceaa9d.svg": "/react-landingpage/static/media/react.86ceaa9d.svg",
     "static/media/reactapp.4003fbfc.mp4": "/react-landingpage/static/media/reactapp.4003fbfc.mp4",
     "static/media/App.css": "/react-landingpage/static/media/silka-regularitalic-webfont.f96a0db7.woff",
     "static/media/upload_image.48fddc49.svg": "/react-landingpage/static/media/upload_image.48fddc49.svg",
+    "static/media/urban_design.aed6ff58.svg": "/react-landingpage/static/media/urban_design.aed6ff58.svg",
     "static/media/web_devices.76050e03.svg": "/react-landingpage/static/media/web_devices.76050e03.svg"
   },
   "entrypoints": [
@@ -27,6 +27,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.36ab3620.chunk.js",
     "static/css/main.dcafd4ac.chunk.css",
-    "static/js/main.3ba4d3c3.chunk.js"
+    "static/js/main.8a084e1d.chunk.js"
   ]
 }
