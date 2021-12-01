@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
 export const FooterContainer = styled.div`
-background-color: #2498fe;
+background-color: #201C1D;
 
 `
 
@@ -44,7 +44,7 @@ margin: 16px;
 text-align: left;
 width: 160px;
 box-sizing: border-box;
-color: #fff;
+color: #9b9b9b;
 
 @media screen and (max-width: 420px) {
     margin: 0;
@@ -61,14 +61,14 @@ margin-bottom: 16px;
 `
 
 export const FooterLink = styled(Link)`
-color: #fff;
+color: #1ab2ff;
 text-decoration: none;
 margin-bottom: 0.5rem;
 font-size: 14px;
 cursor: pointer;
 
 &:hover {
-    color: #000;
+    color: #ffffff;
     transition: 0.3s ease-out;
 
 }
