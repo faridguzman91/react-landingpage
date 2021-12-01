@@ -1,7 +1,7 @@
 import reactImage from '../assets/images/react.svg'
 import reactImg2 from '../assets/images/draw_and_publish.png'
 import reactImg3 from '../assets/images/fill_Form.svg'
-import reactImg4 from '../assets/images/innovative.svg'
+import reactImg4 from '../assets/images/urban_design.svg'
 import reactImg5 from '../assets/images/code.svg'
 
 export const homeObjOne = {
@@ -18,7 +18,7 @@ export const homeObjOne = {
     alt: 'Drawing',
     dark: true,
     primary: true,
-    darkText: true,
+    darkText: false,
 }
 
 export const homeObjTwo = {
