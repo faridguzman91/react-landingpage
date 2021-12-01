@@ -12,15 +12,16 @@ export const Fonts = styled.div`
 
 export const Nav = styled.nav`
 font-family: 'Lato', sans-serif;
-background: ${({ scrollNav }) => (scrollNav ? '#9acdfa' : 'transparent')};
+background: ${({ scrollNav }) => (scrollNav ? '#46acfad7' : '#ffffff6e')};
 height: 80px;
-color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : 'transparent')};
+color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : '#ffffff')};
 display: flex;
 justify-content: center;
 align-items: center;
 font-size: 1rem;
 position: sticky;
 top: 0;
+transition: 0.3s all ease;
 z-index: 10;
 
 @media screen and (max-width: 960px) {
@@ -41,7 +42,7 @@ max-width: 1100px;
 export const NavLogo = styled(LinkR)`
 font-family: 'Silka Italic', sans-serif;
 font-weight: 100;
-color: #000000;
+color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : '#000000')};
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5 rem;
@@ -49,7 +50,7 @@ display: flex;
 align-items: center;
 margin-left: 24px;
 font-weight: bold;
-text-decoration: none
+text-decoration: none;
 `
 export const MobileIcon = styled.div`
 display: none;
@@ -62,7 +63,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
 }
 `
 

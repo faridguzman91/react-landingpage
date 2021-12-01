@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#f3f3f3')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#fafafa')};
 font-family: 'Lato', sans-serif;
  
 @media screen and (max-width: 768px) {
