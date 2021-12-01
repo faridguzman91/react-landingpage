@@ -17,7 +17,7 @@ font-family: 'Lato', sans-serif;
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 860px;
+height: 880px;
 width: 100%;
 max-width: 1200px;
 margin-right: auto;
@@ -56,14 +56,14 @@ padding-bottom: 60px;
 `
 
 export const TopLine = styled.p`
-color: #393939;
+color: ${({ lightText }) => (lightText ? '#ffffff' : '#000000')};
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
-color: ${({ lightText }) => (lightText ? '#000000' : '#ffffff')};
+/* color: ${({ lightText }) => (lightText ? '#ffffff' : '#000000')}; */
 `
 
 export const Heading = styled.h1`

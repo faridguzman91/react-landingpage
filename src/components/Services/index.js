@@ -9,11 +9,11 @@ const Services = () => {
 
     //gsap animation function https://greensock.com/react/
 
-    const boxRef = useRef();
+    // const boxRef = useRef();
 
-    useEffect(() => {
-        gsap.to(boxRef.current, { rotation: 720, x: 0 })
-    });
+    // useEffect(() => {
+    //     gsap.to(boxRef.current, { rotation: 720, x: 0 })
+    // });
 
 
     return (
@@ -21,7 +21,7 @@ const Services = () => {
             <ServicesContainer>
                 <ServicesH1>Services</ServicesH1>
                 <ServicesWrapper>
-                    <ServicesCard ref={boxRef}>
+                    <ServicesCard >
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Improve workflow</ServicesH2>
                         <ServicesP> A translation of our software towards a more robust and generic software could increase our production capacity. </ServicesP>
