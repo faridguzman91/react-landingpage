@@ -39,7 +39,7 @@ export const FooterLinkItems = styled.div`
 display: flex;
 font-family: 'Silka', sans-serif;
 flex-direction: column;
-align-items: flex-start;
+align-items: center;
 margin: 16px;
 text-align: left;
 width: 160px;

@@ -12,7 +12,7 @@ export const Fonts = styled.div`
 
 export const Nav = styled.nav`
 font-family: 'Lato', sans-serif;
-background: ${({ scrollNav }) => (scrollNav ? '#1ab3ffe8' : '#ffffff6e')};
+background: ${({ scrollNav }) => (scrollNav ? '#3392ffe3' : '#ffffff6e')};
 height: 80px;
 color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : '#ffffff')};
 display: flex;
@@ -121,7 +121,7 @@ align-items: center;
 export const NavBtnLink = styled(LinkR)`
 font-family: 'Lato', sans-serif;
 border-radius: 50px;
-background:  #006ba1;
+background:  #3392FF;
 white-space: nowrap;
 padding: 10px 22px;
 color: #ffffff;

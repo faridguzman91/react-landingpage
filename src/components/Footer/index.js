@@ -24,13 +24,7 @@ const FooterElements = () => {
                             <FooterLink to='/'>Terms of Service</FooterLink>
 
                         </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/'>How it works</FooterLink>
-                            <FooterLink to='/'>Cases</FooterLink>
-                            <FooterLink to='/'>Sponsors</FooterLink>
-                            <FooterLink to='/'>Terms of Service</FooterLink>
-                        </FooterLinkItems>
+                  
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
