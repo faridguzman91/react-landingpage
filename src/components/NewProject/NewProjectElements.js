@@ -16,6 +16,8 @@ export const Container = styled.div `
 object-fit: contain;
 background-repeat: no-repeat;
 fill-opacity: 0.8;
+font-family: 'Silka', sans-serif;
+
 
 `;
 

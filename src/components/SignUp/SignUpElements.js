@@ -25,6 +25,7 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Silka', sans-serif;
 
   @media screen and (max-width: 400px) {
     height: 80%;

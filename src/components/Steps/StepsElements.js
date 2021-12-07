@@ -10,13 +10,40 @@ position: relative;
 z-index: 999;
 `
 
+export const StepsToggle = styled.div `
+width: 40px;
+height: 40px;
+background: #007bff;
+position: absolute;
+border-radius: 50px;
+right: -20px;
+top: 40%;
+color: white;
+font-size: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+z-index: 100;
+
+&:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    translate: scale(1.15);
+    
+}
+`
+
 
 export const StepsContainer = styled.div `
-width: 20%;
+/* width: 20%; */
+width: ${({ toggleBar }) => (toggleBar ? '20px' : '20%')};
 height: 98vh;
 background-color: #ffffffd0;
 position: fixed;
 z-index:999;
+border-right: 1px solid #b3b3b3;
 `
 
 export const StepsWrapper = styled.div `

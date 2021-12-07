@@ -17,7 +17,7 @@ const NewProjectPage = () => {
   return (
     <Container>
       <FormWrap>
-        <Icon to="/">
+        <Icon to="/">Back</Icon>
           <FormContent>
             <Form>
               <FormH1>Create a new project</FormH1>
@@ -30,7 +30,7 @@ const NewProjectPage = () => {
               <FormButton>Continue</FormButton>
             </Form>
           </FormContent>
-        </Icon>
+       
       </FormWrap>
     </Container>
   );

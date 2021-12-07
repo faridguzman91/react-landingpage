@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { NavBarContainer, Nav, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavBarElements'

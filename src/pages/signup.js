@@ -5,6 +5,7 @@ import StepsBar from '../components/Steps'
 import NewProject from "../pages/newproject";
 import EditHouse from "../components/EditHouse";
 import NewProjectPage from '../components/NewProject';
+import MapTool from '../components/Drawing'
 
 // import StepWizard from 'react-step-wizard'
 

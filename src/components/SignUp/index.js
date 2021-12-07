@@ -30,7 +30,7 @@ const SignUp = () => {
     <Container>
       <StepsBar />
       <FormWrap>
-        <Icon to="/">
+        <Icon to="/">  </Icon>
           <FormContent>
             <Form>
               <FormH1>Create new account</FormH1>
@@ -60,7 +60,7 @@ const SignUp = () => {
               <FormButton>Sign Up</FormButton>
             </Form>
           </FormContent>
-        </Icon>
+       
       </FormWrap>
     </Container>
   );

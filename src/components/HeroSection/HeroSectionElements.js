@@ -55,7 +55,7 @@ object-fit: cover;
 background: #525252;
 box-shadow: 0px 2px 2px 2px #00000067;
 margin-bottom: 10px;
-animation: ;
+
 `
 
 export const HeroContent = styled.div`
