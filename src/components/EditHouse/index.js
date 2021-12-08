@@ -11,7 +11,8 @@ import {
   TableButtonAddColumn,
   TableButtonsBelowContainer,
   TableButtonImport,
-  TableButtonExport
+  TableButtonExport,
+  TableButtonNext
 } from "./EditHouseElements";
 import Table from "./Table/Table";
 import SortingTable from "./Table/SortingTable";
@@ -54,12 +55,15 @@ const EditHouse = () => {
           {/* <Table />
                     <SortingTable /> */}
           {/* <FilteringTable /> */}
-          {/* <PaginationTable/> */}
-          <RowSelectionTable />
+
+          
+          <PaginationTable/>
+          {/* <RowSelectionTable /> */}
 
           <TableButtonsBelowContainer>
           <TableButtonImport><AiIcons.AiOutlineImport/>Import</TableButtonImport>
           <TableButtonExport><AiIcons.AiOutlineExport/>Export</TableButtonExport>
+          <TableButtonNext>Next<AiIcons.AiOutlineArrowRight /></TableButtonNext>
           </TableButtonsBelowContainer>
 
         </TableWrapper>

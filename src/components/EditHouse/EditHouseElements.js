@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  min-height: 98vh;
+  min-height: 100vh;
   /* position: fixed; */
   bottom: 0;
   left: 0;
@@ -181,20 +181,21 @@ border-radius: 10px;
 
 export const TableButtonsBelowContainer = styled.div `
 display: flex;
+width: 100%;
 
 
 `
 
 export const TableButtonImport = styled.button `
 background-color: #007bff;
-width: 200px;
+width: 100px;
 height: 50px;
 border: none;
 position: relative;
 display: flex;
 justify-content: flex-end;
 color: white;
-font-size: 20px;
+font-size: 16px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -214,15 +215,40 @@ margin-top: 5px;
 
 export const TableButtonExport = styled.button `
 background-color: #007bff;
-width: 200px;
+width: 100px;
 height: 50px;
 border: none;
 position: relative;
 display: flex;
 justify-content: flex-end;
 color: white;
-font-size: 20px;
+font-size: 16px;
 display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+margin-top: 5px;
+
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
+
+`
+
+export const TableButtonNext = styled.button `
+background-color: #007bff;
+width: 100px;
+height: 50px;
+border: none;
+position: relative;
+color: white;
+font-size: 16px;
+display: flex;
+left: 50vw;
 align-items: center;
 justify-content: center;
 cursor: pointer;
