@@ -45,7 +45,7 @@ position: absolute;
 width: 100%;
 height: 100%;
 background-image: url('https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-opacity: .7;
+opacity: 1;
 background-size: cover;
 `
 

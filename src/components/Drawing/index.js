@@ -53,7 +53,7 @@ const Drawing = () => {
 
           </DrawingToolbar>
 
-          <ImageContainer>Uploaded Image</ImageContainer>
+          <ImageContainer>Uploaded Image: Project Name: Date</ImageContainer>
 
           <DrawingPolygonToolbar>
             <PolygonButton title="house #01">1</PolygonButton>
@@ -62,6 +62,10 @@ const Drawing = () => {
             <PolygonButton title="house #03">3</PolygonButton>
 
             <PolygonButton title="house #04">4</PolygonButton>
+            <PolygonButton title="house #04">5</PolygonButton>
+
+<PolygonButton title="house #04">6</PolygonButton>
+
           </DrawingPolygonToolbar>
         </Toolbars>
       </DrawingImageContainer>
