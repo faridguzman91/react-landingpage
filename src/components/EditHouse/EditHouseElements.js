@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const TableWrapper = styled.div`
 position: relative;
-top: 150px;
+top: 100px;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,11 @@ max-width: 80vw;
   @media screen and (max-width: 400px) {
     height: 80%;
   }
+`
+
+export const TableName = styled.h2 `
+font-size: 20px;
+color: #484848;
 `
 
 export const GlobalFilterSpan = styled.div`
@@ -172,4 +177,63 @@ border-radius: 10px;
   color: #000;
   border: 0.3px solid #52525250;
 }
+`
+
+export const TableButtonsBelowContainer = styled.div `
+display: flex;
+
+
+`
+
+export const TableButtonImport = styled.button `
+background-color: #007bff;
+width: 200px;
+height: 50px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+margin-right: 10px;
+margin-top: 5px;
+
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
+
+`
+
+export const TableButtonExport = styled.button `
+background-color: #007bff;
+width: 200px;
+height: 50px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+margin-top: 5px;
+
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
+
 `

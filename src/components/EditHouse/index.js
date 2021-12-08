@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Container,
+  TableName,
   TableWrapper,
   TableButtonEdit,
   TableButtonContainer,
@@ -8,6 +9,9 @@ import {
   TableButtonAddHouse,
   TableButtonRowEdit,
   TableButtonAddColumn,
+  TableButtonsBelowContainer,
+  TableButtonImport,
+  TableButtonExport
 } from "./EditHouseElements";
 import Table from "./Table/Table";
 import SortingTable from "./Table/SortingTable";
@@ -20,7 +24,12 @@ const EditHouse = () => {
   return (
     <div>
       <Container>
+
+               
         <TableWrapper>
+            <TableName>Edit Houses Data</TableName>
+            
+
           <TableButtonContainer>
             <TableButtonEdit title="Edit Bulk Row">
               <AiIcons.AiFillEdit />
@@ -47,7 +56,14 @@ const EditHouse = () => {
           {/* <FilteringTable /> */}
           {/* <PaginationTable/> */}
           <RowSelectionTable />
+
+          <TableButtonsBelowContainer>
+          <TableButtonImport><AiIcons.AiOutlineImport/>Import</TableButtonImport>
+          <TableButtonExport><AiIcons.AiOutlineExport/>Export</TableButtonExport>
+          </TableButtonsBelowContainer>
+
         </TableWrapper>
+     
       </Container>
     </div>
   );

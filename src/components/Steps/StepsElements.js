@@ -39,10 +39,11 @@ z-index: 100;
 export const StepsContainer = styled.div `
 /* width: 20%; */
 width: ${({ toggleBar }) => (toggleBar ? '20px' : '20%')};
-height: 98vh;
-background-color: #ffffffd0;
+height: 100vh;
+background-color: #ffffffef;
 position: fixed;
 z-index:999;
+top: 0;
 border-right: 1px solid #b3b3b3;
 `
 
