@@ -58,6 +58,13 @@ width: 40px;
 height: 40px;
 border-radius: 50px;
 font-size: 20px;
+cursor: pointer;
+border: 1px solid #7c7c7c;
+ 
+&:hover {
+    color: white;
+    background-color: #72e872;
+}
 `
 
 export const DrawingGridButton = styled.button
@@ -69,6 +76,13 @@ width: 40px;
 height: 40px;
 border-radius: 50px;
 font-size: 20px;
+cursor: pointer;
+border: 1px solid #7c7c7c;
+ 
+&:hover {
+    color: white;
+    background-color: #72e872;
+}
 
 `
 
@@ -80,6 +94,13 @@ width: 40px;
 height: 40px;
 border-radius: 50px;
 font-size: 22px;
+cursor: pointer;
+border: 1px solid #7c7c7c;
+ 
+&:hover {
+    color: white;
+    background-color: #72e872;
+}
 
 
 `
@@ -92,6 +113,13 @@ width: 40px;
 height: 40px;
 border-radius: 50px;
 font-size: 22px;
+cursor: pointer;
+border: 1px solid #7c7c7c;
+ 
+&:hover {
+    color: white;
+    background-color: #72e872;
+}
 
 `
 
@@ -103,6 +131,13 @@ width: 40px;
 height: 40px;
 border-radius: 50px;
 font-size: 22px;
+cursor: pointer;
+border: 1px solid #7c7c7c;
+ 
+&:hover {
+    color: white;
+    background-color: #72e872;
+}
 
 `
 
@@ -127,7 +162,21 @@ export const PolygonButton = styled.button `
 width: 40px;
 height: 40px;
 border-radius: 50px;
+cursor: pointer;
+border: 1px solid #7c7c7c;
+ 
+&:hover {
+    color: white;
+    background-color: #72e872;
+}
+`
 
+export const ShowPolygonsButton = styled.button `
+width:40px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
 export const PublishButton = styled.button `
@@ -140,6 +189,7 @@ cursor: pointer;
 background-color: #007bff;
 color: white;
 border: none;
+border-radius: 5px;
 
 &:hover {
     background-color: #fff;
@@ -159,6 +209,7 @@ cursor: pointer;
 background-color: #007bff;
 color: white;
 border: none;
+border-radius: 5px;
 
 &:hover {
     background-color: #fff;

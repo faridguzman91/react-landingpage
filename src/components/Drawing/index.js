@@ -12,6 +12,7 @@ import {
   DrawingFillScreenButton,
   DrawingColorSwatchButton,
   PolygonButton,
+  ShowPolygonsButton,
   PublishButton,
   PreviewButton,
   DrawingImageContainer,
@@ -20,6 +21,7 @@ import * as RiIcons from 'react-icons/ri'
 import * as MdIcons from 'react-icons/md'
 import * as BiIcons from 'react-icons/bi'
 import * as AiIcons from 'react-icons/ai'
+import * as FaIcons from 'react-icons/fa'
 
 
 const Drawing = () => {
@@ -62,9 +64,11 @@ const Drawing = () => {
             <PolygonButton title="house #03">3</PolygonButton>
 
             <PolygonButton title="house #04">4</PolygonButton>
-            <PolygonButton title="house #04">5</PolygonButton>
+            <PolygonButton title="house #05">5</PolygonButton>
 
-<PolygonButton title="house #04">6</PolygonButton>
+<PolygonButton title="house #06">6</PolygonButton>
+
+<ShowPolygonsButton><FaIcons.FaChevronDown/></ShowPolygonsButton>
 
           </DrawingPolygonToolbar>
         </Toolbars>

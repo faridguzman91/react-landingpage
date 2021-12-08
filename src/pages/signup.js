@@ -7,6 +7,7 @@ import EditHouse from "../components/EditHouse";
 import NewProjectPage from '../components/NewProject';
 import MapTool from '../components/Drawing'
 import Sidebar from 'react-sidebar';
+import Publish from '../components/Publish';
 
 // import StepWizard from 'react-step-wizard'
 
@@ -31,6 +32,7 @@ const SignUpPage = () => {
                 <NewProjectPage />
                 <EditHouse />
                 <MapTool/>
+                <Publish />
 
             </div>
         </>
