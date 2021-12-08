@@ -14,7 +14,7 @@ import {
 import Checkbox from "./Checkbox";
 
 const SignUp = () => {
-    
+
   const [checkedOne, setCheckedOne] = useState(false);
   const [checkedTwo, setCheckedTwo] = useState(false);
 
@@ -28,7 +28,7 @@ const SignUp = () => {
 
   return (
     <Container>
-      <StepsBar />
+      {/* <StepsBar /> */}
       <FormWrap>
         <Icon to="/">  </Icon>
           <FormContent>
@@ -42,7 +42,7 @@ const SignUp = () => {
               <FormInput type="email" placeholder = "Enter your email" required />
               <FormLabel htmlFor="for">Password</FormLabel>
               <FormInput type="password" placeholder = "Enter password"required />
-              
+
               {/* <label>
                                 <Checkbox checked={this.state.checked} onChange={this.handleCheckboxChange}/>
                             </label> */}
@@ -60,7 +60,7 @@ const SignUp = () => {
               <FormButton>Sign Up</FormButton>
             </Form>
           </FormContent>
-       
+
       </FormWrap>
     </Container>
   );

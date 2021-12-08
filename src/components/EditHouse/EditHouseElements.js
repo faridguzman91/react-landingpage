@@ -42,7 +42,134 @@ export const GlobalFilterSpan = styled.div`
       width: 200px;
       
     }
+`
+export const TableButtonContainer = styled.div `
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+`
+
+export const TableButtonEdit = styled.button `
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
+
+`
+
+export const TableButtonRemove = styled.button `
+background-color: #ff0000;
+width: 40px;
+height: 40px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+margin-right: 10px;
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
+
+`
+export const TableButtonRowEdit = styled.button `
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
+
+`
+
+export const TableButtonAddHouse = styled.button `
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
 
 
 
+`
+
+export const TableButtonAddColumn = styled.button `
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border: none;
+position: relative;
+display: flex;
+justify-content: flex-end;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+
+
+&:hover {
+  background-color: #fff;
+  color: #000;
+  border: 0.3px solid #52525250;
+}
 `
