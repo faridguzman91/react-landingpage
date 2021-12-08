@@ -30,6 +30,7 @@ const SignUpPage = () => {
                 <SignUp />
                 <NewProjectPage />
                 <EditHouse />
+                <MapTool/>
 
             </div>
         </>
