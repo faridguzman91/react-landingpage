@@ -44,8 +44,9 @@ position: absolute;
 // left: 50%;
 width: 100%;
 height: 100%;
-background-image: url('https://images.unsplash.com/photo-1616344787023-a1829b69beea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+background-image: url('https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 opacity: .7;
+background-size: cover;
 `
 
 export const DrawingGuidelineButton = styled.button
