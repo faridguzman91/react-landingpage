@@ -80,16 +80,63 @@ border-radius: 50px;
 
 export const DrawingPolygonToolbar = styled.div `
 position: relative;
-float: right;
 left: 85%;
 top: 10%;
+padding: 20px;
 display: flex;
-justify-content: flex-end;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
 width: 70px;
 height: 400px;
 border: 1px solid #0000005e;
 border-radius: 20px;
 box-shadow: 0px 2px 2px #0000005e;
+`
+
+export const PolygonButton = styled.button `
+width: 40px;
+height: 40px;
+border-radius: 50px;
+
+`
+
+export const PublishButton = styled.button `
+width: 100px;
+height: 40px;
+bottom: 10px;
+left: 90%;
+position: relative;
+cursor: pointer;
+background-color: #007bff;
+color: white;
+border: none;
+
+&:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 2px 2px #0000005e;
+}
+`
+
+export const PreviewButton = styled.button `
+width: 100px;
+height: 40px;
+bottom: 10px;
+left: 75%;
+position: relative;
+cursor: pointer;
+background-color: #007bff;
+color: white;
+border: none;
+
+&:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 2px 2px #0000005e;
+}
 
 `
 
