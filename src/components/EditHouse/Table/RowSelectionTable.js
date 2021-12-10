@@ -13,7 +13,7 @@ import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai";
 import "./table.css";
 import Search from "../Functions/GlobalFilter";
 import ColumnFilter from "../Functions/ColumnFilter";
-import Checkbox from "../../SignUp/Checkbox";
+import Checkbox from "../Functions/Checkbox";
 
 const RowSelectionTable = () => {
   //Add hooks and dependency for no rerenders and recalculations

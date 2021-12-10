@@ -57,8 +57,8 @@ const EditHouse = () => {
           {/* <FilteringTable /> */}
 
           
-          <PaginationTable/>
-          {/* <RowSelectionTable /> */}
+          {/* <PaginationTable/> */}
+          <RowSelectionTable />
 
           <TableButtonsBelowContainer>
           <TableButtonImport><AiIcons.AiOutlineImport/>Import</TableButtonImport>
