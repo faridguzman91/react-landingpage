@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-landingpage/static/css/main.46067068.chunk.css",
-    "main.js": "/react-landingpage/static/js/main.a3b76adf.chunk.js",
-    "main.js.map": "/react-landingpage/static/js/main.a3b76adf.chunk.js.map",
+    "main.css": "/react-landingpage/static/css/main.f89843cf.chunk.css",
+    "main.js": "/react-landingpage/static/js/main.e7e5282d.chunk.js",
+    "main.js.map": "/react-landingpage/static/js/main.e7e5282d.chunk.js.map",
     "runtime-main.js": "/react-landingpage/static/js/runtime-main.2eca34de.js",
     "runtime-main.js.map": "/react-landingpage/static/js/runtime-main.2eca34de.js.map",
-    "static/css/2.a1596f27.chunk.css": "/react-landingpage/static/css/2.a1596f27.chunk.css",
-    "static/js/2.a6279891.chunk.js": "/react-landingpage/static/js/2.a6279891.chunk.js",
-    "static/js/2.a6279891.chunk.js.map": "/react-landingpage/static/js/2.a6279891.chunk.js.map",
+    "static/css/2.5b7d3774.chunk.css": "/react-landingpage/static/css/2.5b7d3774.chunk.css",
+    "static/js/2.ed1a3abf.chunk.js": "/react-landingpage/static/js/2.ed1a3abf.chunk.js",
+    "static/js/2.ed1a3abf.chunk.js.map": "/react-landingpage/static/js/2.ed1a3abf.chunk.js.map",
     "index.html": "/react-landingpage/index.html",
-    "static/css/2.a1596f27.chunk.css.map": "/react-landingpage/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.46067068.chunk.css.map": "/react-landingpage/static/css/main.46067068.chunk.css.map",
-    "static/js/2.a6279891.chunk.js.LICENSE.txt": "/react-landingpage/static/js/2.a6279891.chunk.js.LICENSE.txt",
+    "static/css/2.5b7d3774.chunk.css.map": "/react-landingpage/static/css/2.5b7d3774.chunk.css.map",
+    "static/css/main.f89843cf.chunk.css.map": "/react-landingpage/static/css/main.f89843cf.chunk.css.map",
+    "static/js/2.ed1a3abf.chunk.js.LICENSE.txt": "/react-landingpage/static/js/2.ed1a3abf.chunk.js.LICENSE.txt",
     "static/media/code.d399b4a6.svg": "/react-landingpage/static/media/code.d399b4a6.svg",
     "static/media/draw_and_publish.0334a414.png": "/react-landingpage/static/media/draw_and_publish.0334a414.png",
     "static/media/fill_Form.beec18af.svg": "/react-landingpage/static/media/fill_Form.beec18af.svg",
@@ -24,9 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2eca34de.js",
-    "static/css/2.a1596f27.chunk.css",
-    "static/js/2.a6279891.chunk.js",
-    "static/css/main.46067068.chunk.css",
-    "static/js/main.a3b76adf.chunk.js"
+    "static/css/2.5b7d3774.chunk.css",
+    "static/js/2.ed1a3abf.chunk.js",
+    "static/css/main.f89843cf.chunk.css",
+    "static/js/main.e7e5282d.chunk.js"
   ]
 }
