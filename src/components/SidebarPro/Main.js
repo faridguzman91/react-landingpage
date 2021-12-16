@@ -2,6 +2,8 @@ import React from 'react';
 import { useIntl } from 'react-intl';
 import Switch from 'react-switch';
 import { FaBars } from 'react-icons/fa';
+import NewProjectPage from '../../components/NewProject/index.js'
+import SignUpPage from '../../components/SignUp'
 
 
 const Main = ({
@@ -16,9 +18,7 @@ const Main = ({
             <div className="btn-toggle" onClick={() => handleToggleSidebar(true)}>
                 <FaBars />
             </div>
-            <header>
 
-            </header>
             <div className="block ">
                 <Switch
                     height={16}
@@ -30,8 +30,11 @@ const Main = ({
                     onColor="#219de9"
                     offColor="#bbbbbb"
                 />
-                <span> {intl.formatMessage({ id: 'collapsed' })}</span>
+                <span>Collapse Sidebar</span>
             </div>
+
+            <SignUpPage />
+            <NewProjectPage />
 
 
 

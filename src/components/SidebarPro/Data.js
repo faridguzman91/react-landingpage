@@ -3,8 +3,6 @@ export default {
     en: {
         title: 'React Pro Sidebar',
         sidebarTitle: 'Map Tool Sidebar',
-        description:
-            'React sidebar library with dropdown menus and unlimited number of nested submenus',
         dashboard: 'Dashboard',
         components: 'Components',
         dropdown: 'Dropdown',
@@ -13,7 +11,7 @@ export default {
         collapsed: 'Collapse',
         rtl: 'RTL',
         image: 'Background image',
-        // new: 'NEW',
+        new: 'NEW',
         withPrefix: 'With Prefix',
         withSuffix: 'Steps',
         viewSource: 'View Source',

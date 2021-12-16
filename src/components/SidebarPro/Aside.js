@@ -10,10 +10,12 @@ import {
     SidebarContent,
 } from 'react-pro-sidebar';
 import { FaTachometerAlt, FaGem, FaListOl } from 'react-icons/fa';
+
 // import sidebarBg from './assets/bg2.jpg';
 
-const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
+const Aside = ({ collapsed, toggled, handleToggleSidebar }) => {
     const intl = useIntl();
+
     return (
         <ProSidebar
 
@@ -21,6 +23,7 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
             toggled={toggled}
             breakPoint="md"
             onToggle={handleToggleSidebar}
+
         >
             <SidebarHeader>
                 <div
@@ -35,7 +38,7 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
                         whiteSpace: 'nowrap',
                     }}
                 >
-                    {intl.formatMessage({ id: 'sidebarTitle' })}
+                    Map Tool
                 </div>
             </SidebarHeader>
 
@@ -45,14 +48,14 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
                         icon={<FaTachometerAlt />}
 
                     >
-                        {intl.formatMessage({ id: 'dashboard' })}
+                        Dashboard
                     </MenuItem>
-                    <MenuItem icon={<FaGem />}> {intl.formatMessage({ id: 'components' })}</MenuItem>
+                    <MenuItem icon={<FaGem />}> My Account</MenuItem>
                 </Menu>
                 <Menu iconShape="circle">
                     <SubMenu
                         suffix={<span className="badge yellow">5</span>}
-                        title={intl.formatMessage({ id: 'withSuffix' })}
+                        title="Steps"
                         icon={<FaListOl />}
                     >
                         <MenuItem>Create Account</MenuItem>
@@ -66,7 +69,7 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
             </SidebarContent>
 
             <SidebarFooter style={{ textAlign: 'center' }}>
-
+                Kreate Space
             </SidebarFooter>
         </ProSidebar>
     );

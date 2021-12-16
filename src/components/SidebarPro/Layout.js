@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Aside from './Aside';
 import Main from './Main';
 
-function Layout({ setLocale }) {
+function Layout() {
 
     const [collapsed, setCollapsed] = useState(false);
 
@@ -19,13 +19,11 @@ function Layout({ setLocale }) {
     return (
         <div className={`app ${toggled ? 'toggled' : ''}`}>
             <Aside
-
                 collapsed={collapsed}
                 toggled={toggled}
                 handleToggleSidebar={handleToggleSidebar}
             />
             <Main
-
                 toggled={toggled}
                 collapsed={collapsed}
                 handleToggleSidebar={handleToggleSidebar}
