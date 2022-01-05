@@ -10,7 +10,8 @@ import {
     SidebarFooter,
     SidebarContent,
 } from 'react-pro-sidebar';
-import { FaTachometerAlt, FaGem, FaListOl } from 'react-icons/fa';
+import { FaTachometerAlt, FaGem, FaListOl, FaRegQuestionCircle, FaCog } from 'react-icons/fa';
+import {RiDashboardFill} from 'react-icons/ri'
 import { Logo } from './StepsElements';
 import './sidebar.styles.scss'
 // import { sidebarHeaderObjOne, sidebarHeaderObjTwo } from './SidebarData';
@@ -41,33 +42,43 @@ const Aside = ({ collapsed, toggled, handleToggleSidebar, img,  }) => {
             </SidebarHeader>
 
             <SidebarContent>
-                <Menu iconShape="circle">
-                    <MenuItem
-                        icon={<FaTachometerAlt />}
-
-                    >
-                        Dashboard
-                    </MenuItem>
-                    <MenuItem icon={<FaGem />}> My Account</MenuItem>
-                </Menu>
-                <Menu iconShape="circle">
+             
+                {/* <Menu iconShape="circle">
                     <SubMenu
-                        suffix={<span className="badge yellow">5</span>}
-                        title="Steps"
+                        suffix={<span className="badge yellow">4</span>}
+                        title="Open Menu"
                         icon={<FaListOl />}
                     >
-                        <MenuItem>Create Account</MenuItem>
-                        <MenuItem>Create new project</MenuItem>
-                        <MenuItem>Edit Houses Data</MenuItem>
+                        <MenuItem>Account</MenuItem>
+                        <MenuItem>Projects</MenuItem>
+                        <MenuItem>Units</MenuItem>
                         <MenuItem>Draw</MenuItem>
                         <MenuItem>Publish</MenuItem>
                     </SubMenu>
 
-                </Menu>
+                </Menu> */}
+
+                <Menu>
+
+                  <MenuItem icon={<RiDashboardFill/>}>Account</MenuItem>
+  <MenuItem icon={<FaCog />}>Projects</MenuItem>
+  <MenuItem icon={<FaCog />}>Units</MenuItem>
+  <MenuItem icon={<FaCog />}>Draw</MenuItem>
+  <MenuItem icon={<FaCog />}>Publish</MenuItem>
+  </Menu>
+ 
             </SidebarContent>
 
-            <SidebarFooter style={{ textAlign: 'center' }}>
-                Kreate Space
+            <Menu iconShape="circle">
+  <MenuItem icon={<RiDashboardFill/>}>Dashboard</MenuItem>
+  <MenuItem icon={<FaCog />}>Settings</MenuItem>
+</Menu>
+
+
+            <SidebarFooter style={{ textAlign: 'left' }}>
+                <div className='sidebarFooter'>
+                <FaRegQuestionCircle className="sbFooterIcon"/>Need some help?
+                </div>
             </SidebarFooter>
         </ProSidebar>
     );

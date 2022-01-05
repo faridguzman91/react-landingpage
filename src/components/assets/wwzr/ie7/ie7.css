@@ -1,0 +1,781 @@
+.wwrz-icn-draw {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;');
+}
+.wwrz-icn-projects {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe916;');
+}
+.wwrz-icn-units {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91e;');
+}
+.wwrz-icn-publish {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe931;');
+}
+.wwrz-icn-polygon-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe932;');
+}
+.wwrz-icn-user1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe933;');
+}
+.wwrz-icn-fitscreen {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe934;');
+}
+.wwrz-icn-image-off {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe935;');
+}
+.wwrz-icn-image-replace {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe936;');
+}
+.wwrz-icn-image-on {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe941;');
+}
+.wwrz-icn-guide-off {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe943;');
+}
+.wwrz-icn-guide-on {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe944;');
+}
+.wwrz-icn-guide-add {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe945;');
+}
+.wwrz-icn-lines {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe946;');
+}
+.wwrz-icn-polygon-delete {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe947;');
+}
+.wwrz-icn-polygon-add {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94a;');
+}
+.wwrz-icn-polygon {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94b;');
+}
+.wwrz-icn-ion-android-camera {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2d3;');
+}
+.wwrz-icn-ion-android-options {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf39d;');
+}
+.wwrz-icn-ion-android-unlock {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf3b5;');
+}
+.wwrz-icn-ion-arrow-left-c {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10c;');
+}
+.wwrz-icn-ion-camera {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf118;');
+}
+.wwrz-icn-ion-checkmark {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf122;');
+}
+.wwrz-icn-ion-chevron-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf123;');
+}
+.wwrz-icn-ion-chevron-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf124;');
+}
+.wwrz-icn-ion-chevron-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf127;');
+}
+.wwrz-icn-ion-chevron-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf128;');
+}
+.wwrz-icn-ion-ios-calculator-outline {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf3f1;');
+}
+.wwrz-icn-ion-ios-calculator {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf3f2;');
+}
+.wwrz-icn-ion-ios-camera-outline {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf3f5;');
+}
+.wwrz-icn-ion-ios-paper-outline {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf471;');
+}
+.wwrz-icn-ion-ios-play-outline {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf487;');
+}
+.wwrz-icn-ion-ios-play {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf488;');
+}
+.wwrz-icn-ion-ios-unlocked-outline {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf4c8;');
+}
+.wwrz-icn-ion-ios-unlocked {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf4c9;');
+}
+.wwrz-icn-ion-locked {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf200;');
+}
+.wwrz-icn-ion-paper-airplane {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2c3;');
+}
+.wwrz-icn-ion-social-buffer-outline {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf228;');
+}
+.wwrz-icn-ion-social-buffer {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf229;');
+}
+.wwrz-icn-ion-toggle-filled {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf354;');
+}
+.wwrz-icn-ion-toggle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf355;');
+}
+.wwrz-icn-pdf {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;');
+}
+.wwrz-icn-nature {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;');
+}
+.wwrz-icn-move {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe813;');
+}
+.wwrz-icn-exchange {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe815;');
+}
+.wwrz-icn-download1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81b;');
+}
+.wwrz-icn-mail {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe822;');
+}
+.wwrz-icn-dorp {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe825;');
+}
+.wwrz-icn-bossen {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe829;');
+}
+.wwrz-icn-rooms {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe844;');
+}
+.wwrz-icn-fullscreen {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe84b;');
+}
+.wwrz-icn-fill-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe856;');
+}
+.wwrz-icn-zorg-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe85a;');
+}
+.wwrz-icn-voorzieninge {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe85f;');
+}
+.wwrz-icn-atletiek {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe863;');
+}
+.wwrz-icn-balsport {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe864;');
+}
+.wwrz-icn-bibliotheek {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe865;');
+}
+.wwrz-icn-brandweer {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe866;');
+}
+.wwrz-icn-gemeentehuis {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe867;');
+}
+.wwrz-icn-politiebureau {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe868;');
+}
+.wwrz-icn-racketsport {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe869;');
+}
+.wwrz-icn-zwemmen- {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe86a;');
+}
+.wwrz-icn-kavel-icon {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe86d;');
+}
+.wwrz-icn-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe86f;');
+}
+.wwrz-icn-aanbod {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe870;');
+}
+.wwrz-icn-wwzr_am-check2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe927;');
+}
+.wwrz-icn-wwzr_am-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe924;');
+}
+.wwrz-icn-wwzr_am-uncheck {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe926;');
+}
+.wwrz-icn-wwzr_am-shape {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91b;');
+}
+.wwrz-icn-wwzr_am-style {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91c;');
+}
+.wwrz-icn-wwzr_am-value {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91d;');
+}
+.wwrz-icn-wwzr_kavel1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe919;');
+}
+.wwrz-icn-wwzr_kavel2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91a;');
+}
+.wwrz-icn-wwzr_huis-zw {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe911;');
+}
+.wwrz-icn-wwzr_huis3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe917;');
+}
+.wwrz-icn-wwzr_huis4 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe918;');
+}
+.wwrz-icn-wwzr-bijgebouw2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;');
+}
+.wwrz-icn-wwzr-download2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90d;');
+}
+.wwrz-icn-wwzr-huis-v2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90e;');
+}
+.wwrz-icn-wwzr-huis-v2-11 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe910;');
+}
+.wwrz-icn-wwzr-bijgebouw {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
+}
+.wwrz-icn-wwzr-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
+}
+.wwrz-icn-wwzr-huis-a {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
+}
+.wwrz-icn-wwzr-huis-v {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
+}
+.wwrz-icn-wwzr-puzzel-b {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
+}
+.wwrz-icn-wwzr-puzzel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
+}
+.wwrz-icn-wwzr-stelsamen {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
+}
+.wwrz-icn-dashboard {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94c;');
+}
+.wwrz-icn-eye2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe000;');
+}
+.wwrz-icn-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe001;');
+}
+.wwrz-icn-toggle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe003;');
+}
+.wwrz-icn-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe018;');
+}
+.wwrz-icn-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe039;');
+}
+.wwrz-icn-zoom-in {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe037;');
+}
+.wwrz-icn-zoom-out {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe038;');
+}
+.wwrz-icn-circle-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe040;');
+}
+.wwrz-icn-circle-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe041;');
+}
+.wwrz-icn-circle-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe042;');
+}
+.wwrz-icn-circle-cross {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe043;');
+}
+.wwrz-icn-repeat2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe058;');
+}
+.wwrz-icn-cloud-upload {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe066;');
+}
+.wwrz-icn-cloud-download3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe067;');
+}
+.wwrz-icn-upload {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe068;');
+}
+.wwrz-icn-download2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe069;');
+}
+.wwrz-icn-location3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe070;');
+}
+.wwrz-icn-box {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe079;');
+}
+.wwrz-icn-reload {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe080;');
+}
+.wwrz-icn-tag {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe085;');
+}
+.wwrz-icn-arrow-left2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe094;');
+}
+.wwrz-icn-arrow-right2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe095;');
+}
+.wwrz-icn-arrow-up2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe096;');
+}
+.wwrz-icn-arrow-down2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe097;');
+}
+.wwrz-icn-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe109;');
+}
+.wwrz-icn-maximize {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe112;');
+}
+.wwrz-icn-minimize {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe113;');
+}
+.wwrz-icn-plus2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe114;');
+}
+.wwrz-icn-minus2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe115;');
+}
+.wwrz-icn-check2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe116;');
+}
+.wwrz-icn-cross {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe117;');
+}
+.wwrz-icn-ellipsis {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe129;');
+}
+.wwrz-icn-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe01c;');
+}
+.wwrz-icn-puzzle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe026;');
+}
+.wwrz-icn-gears {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe02b;');
+}
+.wwrz-icn-key {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe02c;');
+}
+.wwrz-icn-tools {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe033;');
+}
+.wwrz-icn-tools-2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe034;');
+}
+.wwrz-icn-paintbrush {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe036;');
+}
+.wwrz-icn-map-pin {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe047;');
+}
+.wwrz-icn-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe04d;');
+}
+.wwrz-icn-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe05a;');
+}
+.wwrz-icn-key2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
+}
+.wwrz-icn-note-checked {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
+}
+.wwrz-icn-cloud-download2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
+}
+.wwrz-icn-tag-add {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
+}
+.wwrz-icn-home3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
+}
+.wwrz-icn-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91f;');
+}
+.wwrz-icn-location2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe920;');
+}
+.wwrz-icn-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe921;');
+}
+.wwrz-icn-compass2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe922;');
+}
+.wwrz-icn-floppy-disk {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe923;');
+}
+.wwrz-icn-office {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92f;');
+}
+.wwrz-icn-paint-format {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe930;');
+}
+.wwrz-icn-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe942;');
+}
+.wwrz-icn-bubble {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96b;');
+}
+.wwrz-icn-bubble2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96e;');
+}
+.wwrz-icn-spinner3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97c;');
+}
+.wwrz-icn-lock {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98f;');
+}
+.wwrz-icn-cog {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe994;');
+}
+.wwrz-icn-list-numbered {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9b9;');
+}
+.wwrz-icn-list {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ba;');
+}
+.wwrz-icn-list2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9bb;');
+}
+.wwrz-icn-enter {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea13;');
+}
+.wwrz-icn-exit {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea14;');
+}
+.wwrz-icn-google-plus1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea8b;');
+}
+.wwrz-icn-facebook1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea90;');
+}
+.wwrz-icn-facebook2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea91;');
+}
+.wwrz-icn-instagram1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea92;');
+}
+.wwrz-icn-whatsapp {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea93;');
+}
+.wwrz-icn-file-pdf {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeadf;');
+}
+.wwrz-icn-file-word {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeae1;');
+}
+.wwrz-icn-libreoffice {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeae3;');
+}
+.wwrz-icn-star {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf005;');
+}
+.wwrz-icn-star-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf006;');
+}
+.wwrz-icn-user {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf007;');
+}
+.wwrz-icn-download3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf019;');
+}
+.wwrz-icn-repeat3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01f;');
+}
+.wwrz-icn-rotate-right2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01f;');
+}
+.wwrz-icn-refresh2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf021;');
+}
+.wwrz-icn-pencil {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf040;');
+}
+.wwrz-icn-trash2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1f8;');
+}
+.wwrz-icn-toggle-off {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf204;');
+}
+.wwrz-icn-toggle-on {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf205;');
+}
+.wwrz-icn-user-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2bd;');
+}
+.wwrz-icn-user-circle-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2be;');
+}
+.wwrz-icn-user-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2c0;');
+}
+.wwrz-icn-wwzr_bijgebouw3d {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe929;');
+}
+.wwrz-icn-wwzr_achterlinks {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92a;');
+}
+.wwrz-icn-wwzr_achterrechts {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92b;');
+}
+.wwrz-icn-wwzr_bijgebouwhuisje {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92c;');
+}
+.wwrz-icn-wwzr_voorlinks {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92d;');
+}
+.wwrz-icn-wwzr_voorrechts {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92e;');
+}
+.wwrz-icn-wwzr_am-logo {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe928;');
+}
+.wwrz-icn-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00c;');
+}
+.wwrz-icn-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.wwrz-icn-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.wwrz-icn-times {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.wwrz-icn-search-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00e;');
+}
+.wwrz-icn-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf015;');
+}
+.wwrz-icn-repeat {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01e;');
+}
+.wwrz-icn-rotate-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf01e;');
+}
+.wwrz-icn-check-square-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf046;');
+}
+.wwrz-icn-chevron-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf053;');
+}
+.wwrz-icn-chevron-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf054;');
+}
+.wwrz-icn-plus-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf055;');
+}
+.wwrz-icn-minus-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf056;');
+}
+.wwrz-icn-times-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf057;');
+}
+.wwrz-icn-check-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf058;');
+}
+.wwrz-icn-question-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf059;');
+}
+.wwrz-icn-info-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05a;');
+}
+.wwrz-icn-times-circle-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05c;');
+}
+.wwrz-icn-ban {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05e;');
+}
+.wwrz-icn-arrow-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf060;');
+}
+.wwrz-icn-arrow-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf061;');
+}
+.wwrz-icn-arrow-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf062;');
+}
+.wwrz-icn-arrow-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf063;');
+}
+.wwrz-icn-expand {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf065;');
+}
+.wwrz-icn-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf067;');
+}
+.wwrz-icn-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf068;');
+}
+.wwrz-icn-eye {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06e;');
+}
+.wwrz-icn-eye-slash {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf070;');
+}
+.wwrz-icn-chevron-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf077;');
+}
+.wwrz-icn-chevron-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf078;');
+}
+.wwrz-icn-shopping-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07a;');
+}
+.wwrz-icn-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07b;');
+}
+.wwrz-icn-folder-open {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf07c;');
+}
+.wwrz-icn-camera-retro {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf083;');
+}
+.wwrz-icn-linkedin-square {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08c;');
+}
+.wwrz-icn-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;');
+}
+.wwrz-icn-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;');
+}
+.wwrz-icn-facebook-f {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;');
+}
+.wwrz-icn-wrench {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ad;');
+}
+.wwrz-icn-paperclip {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;');
+}
+.wwrz-icn-floppy-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;');
+}
+.wwrz-icn-save {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;');
+}
+.wwrz-icn-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d2;');
+}
+.wwrz-icn-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d5;');
+}
+.wwrz-icn-caret-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d7;');
+}
+.wwrz-icn-caret-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d8;');
+}
+.wwrz-icn-caret-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0d9;');
+}
+.wwrz-icn-caret-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0da;');
+}
+.wwrz-icn-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e1;');
+}
+.wwrz-icn-lightbulb-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0eb;');
+}
+.wwrz-icn-cloud-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ed;');
+}
+.wwrz-icn-building-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f7;');
+}
+.wwrz-icn-angle-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf104;');
+}
+.wwrz-icn-angle-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf105;');
+}
+.wwrz-icn-angle-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf106;');
+}
+.wwrz-icn-angle-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf107;');
+}
+.wwrz-icn-desktop {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf108;');
+}
+.wwrz-icn-laptop {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf109;');
+}
+.wwrz-icn-tablet {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10a;');
+}
+.wwrz-icn-mobile {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;');
+}
+.wwrz-icn-mobile-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;');
+}
+.wwrz-icn-spinner {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf110;');
+}
+.wwrz-icn-folder-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf114;');
+}
+.wwrz-icn-folder-open-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf115;');
+}
+.wwrz-icn-crop {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf125;');
+}
+.wwrz-icn-code-fork {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf126;');
+}
+.wwrz-icn-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf167;');
+}
+.wwrz-icn-dropbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16b;');
+}
+.wwrz-icn-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16d;');
+}
+.wwrz-icn-file-pdf-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1c1;');
+}
+.wwrz-icn-paper-plane {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1d8;');
+}
+.wwrz-icn-send {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1d8;');
+}
+.wwrz-icn-paper-plane-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1d9;');
+}
+.wwrz-icn-send-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1d9;');
+}
+.wwrz-icn-object-group {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf247;');
+}
+.wwrz-icn-object-ungroup {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf248;');
+}
+.wwrz-icn-clone {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf24d;');
+}
+.wwrz-icn-map-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf278;');
+}
+

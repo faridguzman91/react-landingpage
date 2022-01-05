@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+    font-family: wwzr;
+    src: url('../../components/assets/wwzr/fonts/wwzr.ttf');
+}
+
+@font-face {
+    font-family: Silka;
+    src: url('../../components/assets/fonts/silka-regularitalic-webfont.ttf');
+}
+
+@font-face {
+    font-family: GalanoGrotesqueMedium;
+    src: url('../../components/assets/fonts/GalanoGrotesqueAltMedium.otf');
+}
+
+@font-face {
+    font-family: GalanoGrotesqueRegular;
+    src: url('../../components/assets/fonts/GalanoGrotesqueAltRegular.otf');
+}
+
 $sidebar-bg-color: #201C1D;
 $submenu-bg-color: rgba(255,
 255,
@@ -226,6 +246,7 @@ body {
     transition: width, left, right, 0.3s;
     position: relative;
     z-index: 1009;
+    font-family: GalanoGrotesqueRegular;
     >.pro-sidebar-inner {
         background: $sidebar-bg-color;
         height: 100%;
@@ -337,4 +358,18 @@ body {
     width: 100%;
     height: 100%;
     z-index: 100000000000000;
+}
+
+.sidebarFooter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sbFooterIcon {
+    font-size: 30px;
+    padding: 2px;
+    margin-right: 3px;
 }
