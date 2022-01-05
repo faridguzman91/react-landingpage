@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import { useIntl } from 'react-intl';
 import {
@@ -10,36 +11,33 @@ import {
     SidebarContent,
 } from 'react-pro-sidebar';
 import { FaTachometerAlt, FaGem, FaListOl } from 'react-icons/fa';
+import { Logo } from './StepsElements';
+import './sidebar.styles.scss'
+// import { sidebarHeaderObjOne, sidebarHeaderObjTwo } from './SidebarData';
+import logo from './logo/logo_rechthoekPNG.png'
+import logo2 from './logo/logo_vierkant_blauw_wit.png'
+
+
 
 // import sidebarBg from './assets/bg2.jpg';
 
-const Aside = ({ collapsed, toggled, handleToggleSidebar }) => {
-    const intl = useIntl();
+const Aside = ({ collapsed, toggled, handleToggleSidebar, img,  }) => {
+
 
     return (
-        <ProSidebar
-
+        <ProSidebar 
             collapsed={collapsed}
             toggled={toggled}
             breakPoint="md"
             onToggle={handleToggleSidebar}
-
+            // {...sidebarHeaderObjOne}
+            // {...sidebarHeaderObjTwo}
         >
-            <SidebarHeader>
-                <div
-                    style={{
-                        padding: '24px',
-                        textTransform: 'uppercase',
-                        fontWeight: 'bold',
-                        fontSize: 14,
-                        letterSpacing: '1px',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        whiteSpace: 'nowrap',
-                    }}
-                >
-                    Map Tool
-                </div>
+            <SidebarHeader> 
+                <div className="logobox">
+                    <img src={logo2} className='kreateSquare' alt="logo"/>
+              <img src={logo} className="kreateRect" alt="logo" />
+              </div>
             </SidebarHeader>
 
             <SidebarContent>

@@ -35,6 +35,12 @@ z-index: 100;
 }
 `
 
+export const Logo = styled.img`
+background-image: url('src\components\SidebarPro\logo\logo_vierkant_blauw_wit.png');
+width: 100px;
+height: 100px;
+`
+
 
 export const StepsContainer = styled.div`
 /* width: 20%; */

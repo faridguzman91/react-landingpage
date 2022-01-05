@@ -30,6 +30,21 @@ const RowSelectionTable = () => {
     []
   );
 
+  const EditableCell = ({
+      value: initialValue,
+      row: { index },
+      column: { id },
+      updateData,
+  }) = {
+      const [value, setValue] = React.useState(initialValue)
+
+      const onChange = event = {
+          setValue(event.target.value)
+      }
+
+
+  }
+  
 
 
   const {
