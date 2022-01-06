@@ -30,7 +30,7 @@ const Main = ({
                     onColor="#219de9"
                     offColor="#bbbbbb"
                 />
-                <span>Collapse Sidebar</span>
+                <span></span>
             </div>
 
             <SignUpPage />
