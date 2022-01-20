@@ -2,7 +2,7 @@ import React from 'react';
 import { useIntl } from 'react-intl';
 import Switch from 'react-switch';
 import { FaBars } from 'react-icons/fa';
-import NewProjectPage from '../../components/NewProject/index.js'
+import NewProject from '../../components/NewProject/index.js'
 import SignUpPage from '../../components/SignUp'
 
 
@@ -33,8 +33,9 @@ const Main = ({
                 <span></span>
             </div>
 
-            <SignUpPage />
-            <NewProjectPage />
+            {/* <SignUpPage /> */}
+            <NewProject />
+
 
 
 

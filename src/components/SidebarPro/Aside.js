@@ -11,12 +11,14 @@ import {
     SidebarContent,
 } from 'react-pro-sidebar';
 import { FaTachometerAlt, FaGem, FaListOl, FaRegQuestionCircle, FaCog } from 'react-icons/fa';
+import {UserIcon, projectsIcon, unitsIcon, drawIcon, publishIcon, dashboardIcon, settingsIcon} from './StepsElements'
 import {RiDashboardFill} from 'react-icons/ri'
 import { Logo } from './StepsElements';
 import './sidebar.styles.scss'
 // import { sidebarHeaderObjOne, sidebarHeaderObjTwo } from './SidebarData';
 import logo from './logo/logo_rechthoekPNG.png'
 import logo2 from './logo/logo_vierkant_blauw_wit.png'
+import '../assets/wwzr/style.css'
 
 
 
@@ -60,11 +62,11 @@ const Aside = ({ collapsed, toggled, handleToggleSidebar, img,  }) => {
 
                 <Menu>
 
-                  <MenuItem icon={<RiDashboardFill/>}>Account</MenuItem>
-  <MenuItem icon={<FaCog />}>Projects</MenuItem>
-  <MenuItem icon={<FaCog />}>Units</MenuItem>
-  <MenuItem icon={<FaCog />}>Draw</MenuItem>
-  <MenuItem icon={<FaCog />}>Publish</MenuItem>
+                  <MenuItem icon={<div className="wwrz-icn-user"  style={{fontSize: 20}}></div>}>Account</MenuItem>
+  <MenuItem icon={<div className='wwrz-icn-projects'  style={{fontSize: 20}}></div>}>Projects</MenuItem>
+  <MenuItem icon={<div className='wwrz-icn-units' style={{fontSize: 20}}></div>}>Units</MenuItem>
+  <MenuItem icon={<div className='wwrz-icn-draw'  style={{fontSize: 20}}></div>}>Draw</MenuItem>
+  <MenuItem icon={<div className="wwrz-icn-publish"  style={{fontSize: 20}}></div>}>Publish</MenuItem>
   </Menu>
  
             </SidebarContent>

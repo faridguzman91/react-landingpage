@@ -7,6 +7,8 @@ import { animateScroll as scroll } from 'react-scroll'
 // import { Nav } from './NavBarElements'
 // import { NavLogo } from './NavBarElements'
 
+import Logo from '../../components/assets/kreatespace/logo_rechthoekPNG.png'
+
 
 const NavBar = ({ toggle }) => {
     //react scroll
@@ -33,23 +35,27 @@ const NavBar = ({ toggle }) => {
     }
 
 
+
+
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavBarContainer>
-                    <NavLogo to='/' onclick={toggleHome}>MapTool</NavLogo>
+                    <NavLogo to='/' onclick={toggleHome}>Map Tool by
+                 
+                        <img src={Logo} style={{ height: 20, width: 150, marginLeft : 10 }}
+                        
+                        />
+                 
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
+                      
+                 
                         <NavItem>
-                            <NavLinks to="about" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Welcome</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="usage" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Create</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="publish" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Publish</NavLinks>
+                            <NavLinks to="publish" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Steps</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="language" smooth={true} duration={800} spy={true} exact={true} offset={-80}>Language</NavLinks>

@@ -11,6 +11,16 @@
     src: url('../src/components/assets/fonts/silka-regularitalic-webfont.woff');
 }
 
+@font-face {
+    font-family: GalanoGrotesqueMedium;
+    src: url('../src/components/assets/fonts/GalanoGrotesqueAltMedium.otf');
+}
+
+@font-face {
+    font-family: GalanoGrotesqueLight;
+    src: url('../src/components/assets/fonts/GalanoGrotesqueAltLight.otf');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +34,6 @@ h3,
 p,
 a,
 button {
-    font-family: 'Silka', sans-serif;
+    font-family: 'GalanoGrotesqueLight';
     font-weight: 300;
 }

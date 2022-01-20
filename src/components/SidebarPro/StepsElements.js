@@ -113,3 +113,46 @@ margin-bottom: 45px;
 position: relative;
 
 `
+
+//sidebar icons
+
+
+export const UserIcon = styled.i`
+font-family: wwzr;
+content: '\e933';
+font-size: 20px;
+`
+
+export const projectsIcon = styled.i`
+font-family: wwzr;
+content: '\e916';
+font-size: 20px;
+`
+
+export const unitsIcon = styled.i`
+font-family: wwzr;
+content: '\e91e';
+font-size: 20px;
+`
+
+export const drawIcon = styled.i`
+font-family: wwzr;
+content: '\e90f';
+font-size: 20px;
+
+`
+
+export const publishIcon = styled.i`
+font-family: wwzr;
+content: '\e931';
+font-size: 20px;
+`
+
+export const dashboardIcon = styled.i`
+font-family: wwzr;
+content: '/e94c';
+font-size: 20px;
+`
+
+
+export const settingsIcon = styled.i``

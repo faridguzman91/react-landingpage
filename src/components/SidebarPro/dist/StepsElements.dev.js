@@ -3,11 +3,81 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Text = exports.TextContainer = exports.StepsText = exports.StepsNumbers = exports.StepsCircles = exports.CircleContainer = exports.StepsWrapper = exports.StepsContainer = exports.Logo = exports.StepsToggle = exports.StepsTriangle = void 0;
+exports.settingsIcon = exports.dashboardIcon = exports.publishIcon = exports.drawIcon = exports.unitsIcon = exports.projectsIcon = exports.UserIcon = exports.Text = exports.TextContainer = exports.StepsText = exports.StepsNumbers = exports.StepsCircles = exports.CircleContainer = exports.StepsWrapper = exports.StepsContainer = exports.Logo = exports.StepsToggle = exports.StepsTriangle = void 0;
 
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _templateObject18() {
+  var data = _taggedTemplateLiteral([""]);
+
+  _templateObject18 = function _templateObject18() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject17() {
+  var data = _taggedTemplateLiteral(["\nfont-family: wwzr;\ncontent: '/e94c';\nfont-size: 20px;\n"]);
+
+  _templateObject17 = function _templateObject17() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject16() {
+  var data = _taggedTemplateLiteral(["\nfont-family: wwzr;\ncontent: 'e931';\nfont-size: 20px;\n"], ["\nfont-family: wwzr;\ncontent: '\\e931';\nfont-size: 20px;\n"]);
+
+  _templateObject16 = function _templateObject16() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject15() {
+  var data = _taggedTemplateLiteral(["\nfont-family: wwzr;\ncontent: 'e90f';\nfont-size: 20px;\n\n"], ["\nfont-family: wwzr;\ncontent: '\\e90f';\nfont-size: 20px;\n\n"]);
+
+  _templateObject15 = function _templateObject15() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject14() {
+  var data = _taggedTemplateLiteral(["\nfont-family: wwzr;\ncontent: 'e91e';\nfont-size: 20px;\n"], ["\nfont-family: wwzr;\ncontent: '\\e91e';\nfont-size: 20px;\n"]);
+
+  _templateObject14 = function _templateObject14() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject13() {
+  var data = _taggedTemplateLiteral(["\nfont-family: wwzr;\ncontent: 'e916';\nfont-size: 20px;\n"], ["\nfont-family: wwzr;\ncontent: '\\e916';\nfont-size: 20px;\n"]);
+
+  _templateObject13 = function _templateObject13() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject12() {
+  var data = _taggedTemplateLiteral(["\nfont-family: wwzr;\ncontent: 'e933';\nfont-size: 20px;\n"], ["\nfont-family: wwzr;\ncontent: '\\e933';\nfont-size: 20px;\n"]);
+
+  _templateObject12 = function _templateObject12() {
+    return data;
+  };
+
+  return data;
+}
 
 function _templateObject11() {
   var data = _taggedTemplateLiteral(["\nfont-family: 'Silka', sans-serif;\npadding: 16px;\nfont-size: 18px;\nmargin-bottom: 45px;\nposition: relative;\n\n"]);
@@ -170,6 +240,35 @@ var TextContainer = _styledComponents["default"].div(_templateObject10());
 
 exports.TextContainer = TextContainer;
 
-var Text = _styledComponents["default"].div(_templateObject11());
+var Text = _styledComponents["default"].div(_templateObject11()); //sidebar icons
+
 
 exports.Text = Text;
+
+var UserIcon = _styledComponents["default"].i(_templateObject12());
+
+exports.UserIcon = UserIcon;
+
+var projectsIcon = _styledComponents["default"].i(_templateObject13());
+
+exports.projectsIcon = projectsIcon;
+
+var unitsIcon = _styledComponents["default"].i(_templateObject14());
+
+exports.unitsIcon = unitsIcon;
+
+var drawIcon = _styledComponents["default"].i(_templateObject15());
+
+exports.drawIcon = drawIcon;
+
+var publishIcon = _styledComponents["default"].i(_templateObject16());
+
+exports.publishIcon = publishIcon;
+
+var dashboardIcon = _styledComponents["default"].i(_templateObject17());
+
+exports.dashboardIcon = dashboardIcon;
+
+var settingsIcon = _styledComponents["default"].i(_templateObject18());
+
+exports.settingsIcon = settingsIcon;

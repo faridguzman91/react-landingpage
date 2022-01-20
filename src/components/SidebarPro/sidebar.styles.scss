@@ -128,12 +128,6 @@ body {
             }
         }
     }
-    .social-bagdes {
-        margin-top: 10px;
-        img {
-            margin: 5px;
-        }
-    }
     .block {
         display: flex;
         margin-bottom: 24px;
@@ -243,11 +237,11 @@ body {
     width: $sidebar-width;
     min-width: $sidebar-width;
     text-align: left;
-    transition: width, left, right, 0.3s;
+    transition: width, left, right, 0.2s;
     position: relative;
     z-index: 1009;
     font-family: GalanoGrotesqueRegular;
-    position: fixed;
+    // position: fixed;
     .pro-menu {
         padding-top: 50%;
         padding-bottom: 10px;

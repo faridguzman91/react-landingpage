@@ -14,7 +14,7 @@ export const Fonts = styled.div`
 
 export const Nav = styled.nav`
 font-family: 'Lato', sans-serif;
-background: ${({ scrollNav }) => (scrollNav ? '#3392ffe3' : '#ffffff6e')};
+background: ${({ scrollNav }) => (scrollNav ? '#ffffffe2' : '#ffffff6e')};
 height: 80px;
 color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : '#ffffff')};
 display: flex;
@@ -42,9 +42,9 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-font-family: 'Silka Italic', sans-serif;
+font-family: 'GalanoGrotesqueMedium', sans-serif;
 font-weight: 100;
-color: ${({ scrollNav }) => (scrollNav ? '#ffffff' : '#000000')};
+color: ${({ scrollNav }) => (scrollNav ? '#3392FF' : '#3392FF')};
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5 rem;
@@ -53,7 +53,16 @@ align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
+flex-wrap: nowrap;
+width: 320px;
 `
+
+export const NavImage = styled.img `
+background: url("");
+`
+    
+
+
 export const MobileIcon = styled.div`
 display: none;
 
@@ -70,12 +79,14 @@ display: none;
 `
 
 export const NavMenu = styled.ul`
-font-family: 'Lato', sans-serif;
+font-family: 'GalanoGrotesqueMedium', sans-serif;
 display: flex;
+justify-content: end;
 align-items: center;
 list-style: none;
 text-align: center;
-margin-right: -22px;
+/* margin-right: 2px; */
+width: 50%;
 
 @media screen and (max-width: 768px) {
     display: none;
@@ -122,7 +133,7 @@ align-items: center;
 
 export const NavBtnLink = styled(LinkR)`
 font-family: 'Lato', sans-serif;
-border-radius: 50px;
+/* border-radius: 50px; */
 background:  #3392FF;
 white-space: nowrap;
 padding: 10px 22px;

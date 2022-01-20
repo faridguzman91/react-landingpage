@@ -7,6 +7,7 @@ import SignUpPage from './pages/signup';
 // import EditHouse from './components/EditHouse';
 // import Sidebar from './components/SidebarPro/Sidebar'
 import NewAccount from './pages/newaccount';
+import NewProject from './pages/newproject';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/signin' element={<SignUpPage />} />
         {/* <Route exact path='/prosidebar' element={<Sidebar />} /> */}
         <Route exact path='/newaccount' element={<NewAccount />} />
+        <Route exact path='/newproject' element={<NewProject/>} />
       </Routes>
       {/* {/* <Home /> */}
       {/* <SignUpPage />  */}

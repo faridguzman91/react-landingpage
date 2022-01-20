@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StepsBar from "../Steps";
+// import StepsBar from "../Steps";
 import {
   Container,
   FormWrap,
@@ -34,28 +34,34 @@ const SignUp = () => {
           <FormContent>
             <Form>
               <FormH1>Create new account</FormH1>
-              <FormLabel htmlFor="for" >Name</FormLabel>
-              <FormInput type="name" placeholder="Enter name" required />
-                <FormLabel htmlFor="for">Company</FormLabel>
-              <FormInput type="Company" placeholder = "Enter company name"required />
-              <FormLabel htmlFor="for">Email</FormLabel>
-              <FormInput type="email" placeholder = "Enter your email" required />
-              <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput type="password" placeholder = "Enter password"required />
+              <FormLabel htmlFor="for" >Name <FormInput type="name" placeholder="Enter name" required />
+</FormLabel>
+              
+                <FormLabel htmlFor="for">Company
+                <FormInput type="Company" placeholder="Enter company name" required />
+
+                </FormLabel>
+              
+              <FormLabel htmlFor="for">Email
+              <FormInput type="email" placeholder="Enter your email" required />
+
+              </FormLabel>
+              
+              {/* <FormLabel htmlFor="for">Password</FormLabel>
+              <FormInput type="password" placeholder = "Enter password"required /> */}
 
               {/* <label>
                                 <Checkbox checked={this.state.checked} onChange={this.handleCheckboxChange}/>
                             </label> */}
               <Checkbox
-                label="I have read and agreed to the Map Tool Terms of Service"
+                label="I have read and agreed to the Map Tool Privacy Policy and Terms of Service"
                 value={checkedOne}
                 onChange={handleChangeOne}
               />
-              <Checkbox
-                label="I have read and agreed to the Map Tool Privacy Policy"
-                value={checkedTwo}
-                onChange={handleChangeTwo}
-              />
+         
+
+              <p>Already Have an account? <a href="login">Login</a></p>
+              <br/>
 
               <FormButton>Sign Up</FormButton>
             </Form>
